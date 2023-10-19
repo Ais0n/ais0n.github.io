@@ -79,7 +79,7 @@ const badgeColor = {
       <div class="columns">
         <div class="column c1 column-left is-full-mobile is-4-tablet is-4-desktop is-3-widescreen">
           <div class="card">
-            <a-avatar :size="100" :src="me" style="margin-bottom: 10px;"></a-avatar>
+            <a-avatar :size="150" :src="me" style="margin-bottom: 10px;"></a-avatar>
             <div class="title is-4" style="font-weight: bold; margin: 0"> Yanwei Huang </div>
             <div> 2nd-year master, ZJU </div>
             <div> Hangzhou, China </div>
