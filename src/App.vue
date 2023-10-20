@@ -57,7 +57,7 @@ const news = [{
   msg: "The first paper led by myself, 'Interactive Table Synthesis with Natural Language' has just been accepted by IEEE TVCG! Great thanks to all collaborators!",
   time: "Oct. 2023",
 }, {
-  msg: "I obtained my BS.E. degree in CS at ZJU and will start my graduate career this fall.",
+  msg: "I obtained my B.E. degree at ZJU and will start my graduate career this fall.",
   time: "Sept. 2022",
 }, {
   msg: "One of our papers has been accepted by IEEE VIS 2022.",
@@ -114,7 +114,7 @@ const badgeColor = {
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
             <p class="paragraph">
-              I am currently pursuing a master degree in Computer Science at <a
+              I am currently pursuing a Master Degree in Computer Science at <a
                 href="https://www.zju.edu.cn/english/">Zhejiang University</a>, supervised by <a
                 href="http://www.ycwu.org/">Prof. Yingcai Wu</a>. As a member of <a href="https://zjuidg.org/">ZJUIDG</a>,
               I am fortunate to work closely with <a href="https://dwe.ng/">Di Weng</a>, <a
@@ -157,7 +157,7 @@ const badgeColor = {
             <ul style="line-height: 1.5em">
               <li><span style="font-weight: bold;">2021.7-2021.9,</span> Research Assistant @<a href="https://www.sustech.edu.cn/en/">SUSTech</a>, Shenzhen, China
                 <ul>
-                  <li style="font-size: 13px;">I was lucky to work closely with <a href="https://lingming.cs.illinois.edu/">Prof. Lingming Zhang</a> and <a href="https://zhangyuqun.github.io/">Prof. Yunqun Zhang</a>.</li>
+                  <li style="font-size: 13px;">I was lucky to work closely with <a href="https://lingming.cs.illinois.edu/">Prof. Lingming Zhang</a> and <a href="https://zhangyuqun.github.io/">Prof. Yuqun Zhang</a>.</li>
                 </ul>
               </li>
               <li><span style="font-weight: bold;">2021.2-2021.6,</span> Frontend Engineer @<a href="https://www.bytedance.com/en/">ByteDance Inc.</a>, Shanghai, China</li>
