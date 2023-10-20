@@ -54,6 +54,9 @@ const _years = Object.keys(publications.value).sort(function(a, b) {
   return b-a;
 });
 const news = [{
+  msg: "I am actively seeking Ph.D. positions in Vis/HCI for Fall 2025.",
+  time: "[TOP]",
+}, {
   msg: "The first paper led by myself, 'Interactive Table Synthesis with Natural Language' has just been accepted by IEEE TVCG! Great thanks to all collaborators!",
   time: "Oct. 2023",
 }, {
