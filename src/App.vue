@@ -15,8 +15,8 @@ const publications = ref({
   "2023": [{
     title: "Interactive Table Synthesis with Natural Language",
     links: [{
-      name: "Paper (To appear)",
-      href: ""
+      name: "Paper",
+      href: "https://ieeexplore.ieee.org/document/10304286"
     }],
     imgsrc: NL2Rigel,
     authors: ["Yanwei Huang", "Yunfan Zhou", "Ran Chen", "Changhao Pan", "Xinhuan Shu", "Di Weng", "Yingcai Wu"],
