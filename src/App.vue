@@ -158,12 +158,12 @@ const badgeColor = {
             <br />
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
-              <li><span style="font-weight: bold;">2021.7-2021.9,</span> Research Assistant @<a href="https://www.sustech.edu.cn/en/">SUSTech</a>, Shenzhen, China
+              <li><span style="font-weight: bold;">2021.7-2021.9,</span> Research Assistant @<a href="https://www.sustech.edu.cn/en/">SUSTech</a> & <a href="https://illinois.edu/">UIUC</a>
                 <ul>
                   <li style="font-size: 13px;">I was lucky to work closely with <a href="https://lingming.cs.illinois.edu/">Prof. Lingming Zhang</a> and <a href="https://zhangyuqun.github.io/">Prof. Yuqun Zhang</a>.</li>
                 </ul>
               </li>
-              <li><span style="font-weight: bold;">2021.2-2021.6,</span> Frontend Engineer @<a href="https://www.bytedance.com/en/">ByteDance Inc.</a>, Shanghai, China</li>
+              <li><span style="font-weight: bold;">2021.2-2021.6,</span> Frontend Engineer @<a href="https://www.bytedance.com/en/">ByteDance Inc.</a></li>
             </ul>
             <br />
             <div class="title is-3">Awards</div>
@@ -176,7 +176,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @ Yanwei Huang. Last updated on Oct. 19, 2023. </div>
+  <div class="footer">Copyright @ Yanwei Huang. Last updated on Nov. 2, 2023. </div>
 </template>
 
 <style scoped>
