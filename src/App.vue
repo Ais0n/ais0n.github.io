@@ -17,6 +17,9 @@ const publications = ref({
     links: [{
       name: "Paper",
       href: "https://ieeexplore.ieee.org/document/10304286"
+    }, {
+      name: "Video",
+      href: "https://youtu.be/jc7aeiszPQM?si=SeRLpmTIg4z7GDFN"
     }],
     imgsrc: NL2Rigel,
     authors: ["Yanwei Huang", "Yunfan Zhou", "Ran Chen", "Changhao Pan", "Xinhuan Shu", "Di Weng", "Yingcai Wu"],
@@ -31,6 +34,9 @@ const publications = ref({
     }, {
       name: "GitHub",
       href: "https://github.com/rigel-js/rigel-system",
+    }, {
+      name: "Video",
+      href: "https://youtu.be/fvM_W-1n7N4?si=2BoDyGzgakzS9BB9"
     }, {
       name: "System",
       href: "https://rigel-system.github.io/rigel-system",
