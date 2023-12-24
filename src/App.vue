@@ -19,7 +19,7 @@ const publications = ref({
       href: "https://ieeexplore.ieee.org/document/10304286"
     }, {
       name: "Video",
-      href: "https://youtu.be/jc7aeiszPQM?si=SeRLpmTIg4z7GDFN"
+      href: "https://www.youtube.com/watch?v=qjjKAykyDZU"
     }],
     imgsrc: NL2Rigel,
     authors: ["Yanwei Huang", "Yunfan Zhou", "Ran Chen", "Changhao Pan", "Xinhuan Shu", "Di Weng", "Yingcai Wu"],
