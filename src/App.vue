@@ -63,6 +63,9 @@ const news = [{
   msg: "I am actively seeking Ph.D. positions in Vis/HCI for Fall 2025.",
   time: "[TOP]",
 }, {
+  msg: "One first-author paper got conditionally accepted at ACM CHI 2024!",
+  time: "Jan. 2024",
+}, {
   msg: "The first paper led by myself, 'Interactive Table Synthesis with Natural Language' has just been accepted by IEEE TVCG! Great thanks to all collaborators!",
   time: "Oct. 2023",
 }, {
@@ -182,7 +185,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @ Yanwei Huang. Last updated on Nov. 2, 2023. </div>
+  <div class="footer">Copyright @ Yanwei Huang. Last updated on Jan. 22, 2024. </div>
 </template>
 
 <style scoped>
