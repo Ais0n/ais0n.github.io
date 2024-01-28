@@ -5,6 +5,7 @@ import me from "./assets/me.jpg";
 import Rigel from "./assets/Rigel.jpg";
 import NL2Rigel from "./assets/NL2Rigel.jpg";
 import Havoc from "./assets/havoc.png";
+import TI from "./assets/TI.png";
 import {
   GithubOutlined,
   TwitterOutlined,
@@ -12,6 +13,17 @@ import {
 } from '@ant-design/icons-vue';
 import { ref } from 'vue'
 const publications = ref({
+  "2024": [{
+    title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
+    links: [{
+      name: "Paper (To appear)",
+      href: ""
+    }],
+    imgsrc: TI,
+    authors: ["Yanwei Huang", "Yurun Yang", "Xinhuan Shu", "Ran Chen", "Di Weng", "Yingcai Wu"],
+    venue: "ACM CHI",
+    note: "test",
+  }],
   "2023": [{
     title: "Interactive Table Synthesis with Natural Language",
     links: [{
@@ -77,6 +89,7 @@ const news = [{
 }]
 
 const badgeColor = {
+  "ACM CHI": '#018571',
   "IEEE TVCG": '#006400',
   "IEEE VIS": '#108ee9',
   "ICSE": '#756bb1'
@@ -158,7 +171,7 @@ const badgeColor = {
                   </div>
                   <div style="margin-top: 5px">
                     <a-tag v-for="(lnk, i) in item.links">
-                      <a :href="lnk.href"> {{ lnk.name }} </a>
+                      <a :class="{'disabled-link': lnk.href == ''}" :href="lnk.href"> {{ lnk.name }} </a>
                     </a-tag>
                   </div>
                 </div>
@@ -250,5 +263,12 @@ const badgeColor = {
 
 .authorHighlighted {
   font-weight: bold;
+}
+
+.disabled-link {
+  color: gray;
+  cursor: not-allowed;
+  /* pointer-events: none; */
+  text-decoration: none;
 }
 </style>
