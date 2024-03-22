@@ -75,10 +75,10 @@ const news = [{
   msg: "I am actively seeking Ph.D. positions in Vis/HCI for Fall 2025.",
   time: "[TOP]",
 }, {
-  msg: "One first-author paper got conditionally accepted at ACM CHI 2024!",
-  time: "Jan. 2024",
+  msg: "I'll attend CHI 2024 in Honolulu during May 11 - 16 to present my paper: \"Table Illustrator: Puzzle-based interactive authoring of plain tables\".",
+  time: "Mar. 2024",
 }, {
-  msg: "The first paper led by myself, 'Interactive Table Synthesis with Natural Language' has just been accepted by IEEE TVCG! Great thanks to all collaborators!",
+  msg: "The first paper led by myself, \"Interactive Table Synthesis with Natural Language\" has just been accepted by IEEE TVCG! Great thanks to all collaborators!",
   time: "Oct. 2023",
 }, {
   msg: "I obtained my B.E. degree at ZJU and will start my graduate career this fall.",
@@ -198,7 +198,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @ Yanwei Huang. Last updated on Jan. 22, 2024. </div>
+  <div class="footer">Copyright @ Yanwei Huang. Last updated on Mar. 22, 2024. </div>
 </template>
 
 <style scoped>
