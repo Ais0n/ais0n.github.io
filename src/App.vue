@@ -16,8 +16,8 @@ const publications = ref({
   "2024": [{
     title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
     links: [{
-      name: "Paper",
-      href: "https://yhuang.top/chi24_Table_Illustrator.pdf"
+      name: "Paper (PDF)",
+      href: "https://yhuang.top/pdf/chi24_Table_Illustrator.pdf"
     }],
     imgsrc: TI,
     authors: ["Yanwei Huang", "Yurun Yang", "Xinhuan Shu", "Ran Chen", "Di Weng", "Yingcai Wu"],
@@ -29,6 +29,9 @@ const publications = ref({
     links: [{
       name: "Paper",
       href: "https://ieeexplore.ieee.org/document/10304286"
+    }, {
+      name: "Paper (PDF)",
+      href: "https://yhuang.top/pdf/tvcg_nl2rigel.pdf"
     }, {
       name: "Video",
       href: "https://www.youtube.com/watch?v=qjjKAykyDZU"
@@ -43,6 +46,9 @@ const publications = ref({
     links: [{
       name: "Paper",
       href: "https://ieeexplore.ieee.org/document/9908529"
+    }, {
+      name: "Paper (PDF)",
+      href: "https://yhuang.top/pdf/rigel.pdf"
     }, {
       name: "GitHub",
       href: "https://github.com/rigel-js/rigel-system",
@@ -61,7 +67,10 @@ const publications = ref({
     title: "One Fuzzing Strategy to Rule Them All",
     links: [{
       name: "Paper",
-      href: "https://shadowmydx.github.io/papers/icse22-main-1314.pdf"
+      href: "https://ieeexplore.ieee.org/document/9794101"
+    }, {
+      name: "Paper (PDF)",
+      href: "https://yhuang.top/pdf/icse22-main-1314.pdf"
     }],
     imgsrc: Havoc,
     authors: ["Mingyuan Wu", "Ling Jiang", "Jiahong Xiang", "Yanwei Huang", "Heming Cui", "Lingming Zhang", "Yuqun Zhang"],
