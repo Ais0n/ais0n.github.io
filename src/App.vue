@@ -17,7 +17,7 @@ const publications = ref({
     title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
     links: [{
       name: "Paper",
-      href: "https://yhuang.top/assets/chi24_Table_Illustrator.pdf"
+      href: "https://yhuang.top/chi24_Table_Illustrator.pdf"
     }],
     imgsrc: TI,
     authors: ["Yanwei Huang", "Yurun Yang", "Xinhuan Shu", "Ran Chen", "Di Weng", "Yingcai Wu"],
