@@ -16,8 +16,8 @@ const publications = ref({
   "2024": [{
     title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
     links: [{
-      name: "Paper (To appear)",
-      href: ""
+      name: "Paper",
+      href: "https://yhuang.top/assets/chi24_Table_Illustrator.pdf"
     }],
     imgsrc: TI,
     authors: ["Yanwei Huang", "Yurun Yang", "Xinhuan Shu", "Ran Chen", "Di Weng", "Yingcai Wu"],
@@ -75,10 +75,10 @@ const news = [{
   msg: "I am actively seeking Ph.D. positions in Vis/HCI for Fall 2025.",
   time: "[TOP]",
 }, {
-  msg: "I'll attend CHI 2024 in Honolulu during May 11 - 16 to present my paper: \"Table Illustrator: Puzzle-based interactive authoring of plain tables\".",
+  msg: "I'll present my paper \"Table Illustrator: Puzzle-based interactive authoring of plain tables\" in CHI'24 at Honolulu on May 13, 2024.",
   time: "Mar. 2024",
 }, {
-  msg: "The first paper led by myself, \"Interactive Table Synthesis with Natural Language\" has just been accepted by IEEE TVCG! Great thanks to all collaborators!",
+  msg: "One paper has been accepted by IEEE TVCG! Great thanks to all collaborators!",
   time: "Oct. 2023",
 }, {
   msg: "I obtained my B.E. degree at ZJU and will start my graduate career this fall.",
@@ -198,7 +198,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @ Yanwei Huang. Last updated on Mar. 22, 2024. </div>
+  <div class="footer">Copyright @ Yanwei Huang. Last updated on May. 4, 2024. </div>
 </template>
 
 <style scoped>
