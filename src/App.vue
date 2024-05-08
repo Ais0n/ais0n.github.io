@@ -18,6 +18,15 @@ const publications = ref({
     links: [{
       name: "Paper (PDF)",
       href: "https://yhuang.top/pdf/chi24_Table_Illustrator.pdf"
+    }, {
+      name: "GitHub",
+      href: "https://github.com/Ais0n/tableshop"
+    }, {
+      name: "Video",
+      href: "https://www.youtube.com/watch?v=OrFKL5-Fc1Y"
+    }, {
+      name: "System",
+      href: "https://yhuang.top/tableshop/",
     }],
     imgsrc: TI,
     authors: ["Yanwei Huang", "Yurun Yang", "Xinhuan Shu", "Ran Chen", "Di Weng", "Yingcai Wu"],
@@ -207,7 +216,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @ Yanwei Huang. Last updated on May. 4, 2024. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on May 8, 2024. </div>
 </template>
 
 <style scoped>
