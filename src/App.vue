@@ -10,13 +10,17 @@ import {
   GithubOutlined,
   TwitterOutlined,
   MailOutlined,
+  LinkedinOutlined
 } from '@ant-design/icons-vue';
 import { ref } from 'vue'
 const publications = ref({
   "2024": [{
     title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
     links: [{
-      name: "Paper (PDF)",
+      name: "Paper",
+      href: "https://dl.acm.org/doi/10.1145/3613904.3642415"
+    }, {
+      name: "PDF",
       href: "https://yhuang.top/pdf/chi24_Table_Illustrator.pdf"
     }, {
       name: "GitHub",
@@ -39,7 +43,7 @@ const publications = ref({
       name: "Paper",
       href: "https://ieeexplore.ieee.org/document/10304286"
     }, {
-      name: "Paper (PDF)",
+      name: "PDF",
       href: "https://yhuang.top/pdf/tvcg_nl2rigel.pdf"
     }, {
       name: "Video",
@@ -56,7 +60,7 @@ const publications = ref({
       name: "Paper",
       href: "https://ieeexplore.ieee.org/document/9908529"
     }, {
-      name: "Paper (PDF)",
+      name: "PDF",
       href: "https://yhuang.top/pdf/rigel.pdf"
     }, {
       name: "GitHub",
@@ -78,7 +82,7 @@ const publications = ref({
       name: "Paper",
       href: "https://ieeexplore.ieee.org/document/9794101"
     }, {
-      name: "Paper (PDF)",
+      name: "PDF",
       href: "https://yhuang.top/pdf/icse22-main-1314.pdf"
     }],
     imgsrc: Havoc,
@@ -141,6 +145,11 @@ const badgeColor = {
                 <MailOutlined />
               </template>
             </a-button>
+            <a-button href="https://www.linkedin.com/in/yanwei-huang-b404552aa/" style="border:none">
+              <template #icon>
+                <LinkedinOutlined />
+              </template>
+            </a-button>
           </div>
           <div class="card" style="text-align: left;">
             <div class="title is-3">News</div>
@@ -168,6 +177,9 @@ const badgeColor = {
             <p class="paragraph">
               My research focuses on the design and development of interfaces and interactive tools tailored for data
               practitioners, covering activities such as data wrangling, table construction, and data cleaning.
+            </p>
+            <p class="paragraph">
+              My CV is available <a href="https://yhuang.top/pdf/yanwei_CV.pdf">here</a>.
             </p>
             <br />
             <div class="title is-3">Research</div>
@@ -216,7 +228,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on May 8, 2024. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on May 27, 2024. </div>
 </template>
 
 <style scoped>
