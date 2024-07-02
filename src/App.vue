@@ -1,7 +1,7 @@
 <script setup>
 // import HelloWorld from "./components/HelloWorld.vue";
 import "./column.css";
-import me from "./assets/me.jpg";
+import me from "./assets/atchi.jpg";
 import Rigel from "./assets/Rigel.jpg";
 import NL2Rigel from "./assets/NL2Rigel.jpg";
 import Havoc from "./assets/havoc.png";
@@ -35,6 +35,7 @@ const publications = ref({
     imgsrc: TI,
     authors: ["Yanwei Huang", "Yurun Yang", "Xinhuan Shu", "Ran Chen", "Di Weng", "Yingcai Wu"],
     venue: "ACM CHI",
+    venue_full: "CHI 2024 - Honolulu, HI, USA",
     note: "test",
   }],
   "2023": [{
@@ -52,6 +53,7 @@ const publications = ref({
     imgsrc: NL2Rigel,
     authors: ["Yanwei Huang", "Yunfan Zhou", "Ran Chen", "Changhao Pan", "Xinhuan Shu", "Di Weng", "Yingcai Wu"],
     venue: "IEEE TVCG",
+    venue_full: "IEEE TVCG 2023",
     note: "test",
   }],
   "2022": [{
@@ -75,6 +77,7 @@ const publications = ref({
     imgsrc: Rigel,
     authors: ["Ran Chen", "Di Weng", "Yanwei Huang", "Xinhuan Shu", "Jiayi Zhou", "Guodao Sun", " Yingcai Wu"],
     venue: "IEEE VIS",
+    venue_full: "IEEE VIS 2022 - Oklahoma City, OK, USA",
     note: "test",
   }, {
     title: "One Fuzzing Strategy to Rule Them All",
@@ -87,7 +90,8 @@ const publications = ref({
     }],
     imgsrc: Havoc,
     authors: ["Mingyuan Wu", "Ling Jiang", "Jiahong Xiang", "Yanwei Huang", "Heming Cui", "Lingming Zhang", "Yuqun Zhang"],
-    venue: "ICSE"
+    venue: "ICSE",
+    venue_full: "ICSE 2022 - Pittsburgh, PA, USA",
   }]
 });
 const _years = Object.keys(publications.value).sort(function(a, b) {
@@ -96,6 +100,9 @@ const _years = Object.keys(publications.value).sort(function(a, b) {
 const news = [{
   msg: "I am actively seeking Ph.D. positions in Vis/HCI for Fall 2025.",
   time: "[TOP]",
+}, {
+  msg: "I'm thrilled to spend this summer as a research assistant in CMU Data Interaction Group. Hello Pittsburgh!",
+  time: "Jul. 2024",
 }, {
   msg: "I'll present my paper \"Table Illustrator: Puzzle-based interactive authoring of plain tables\" in CHI'24 at Honolulu on May 13, 2024.",
   time: "Mar. 2024",
@@ -199,6 +206,9 @@ const badgeColor = {
                       i
                       != item.authors.length - 1 ? author + ', ' : 'and ' + author }} </span>
                   </div>
+                  <div style="font-style: italic;">
+                    <span> {{ item.venue_full }} </span>
+                  </div>
                   <div style="margin-top: 5px">
                     <a-tag v-for="(lnk, i) in item.links">
                       <a :class="{'disabled-link': lnk.href == ''}" :href="lnk.href"> {{ lnk.name }} </a>
@@ -210,6 +220,11 @@ const badgeColor = {
             <br />
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
+              <li><span style="font-weight: bold;">2024.7-2024.12,</span> Visiting Student and Research Assistant @<a href="https://dig.cmu.edu/about">CMU DIG</a>
+                <ul>
+                  <li style="font-size: 13px;">I am happy to work with <a href="https://perer.org/">Prof. Adam Perer</a> in Pittsburgh.</li>
+                </ul>
+              </li>
               <li><span style="font-weight: bold;">2021.7-2021.9,</span> Research Assistant @<a href="https://www.sustech.edu.cn/en/">SUSTech</a> & <a href="https://illinois.edu/">UIUC</a>
                 <ul>
                   <li style="font-size: 13px;">I was lucky to work closely with <a href="https://lingming.cs.illinois.edu/">Prof. Lingming Zhang</a> and <a href="https://zhangyuqun.github.io/">Prof. Yuqun Zhang</a>.</li>
@@ -220,7 +235,8 @@ const badgeColor = {
             <br />
             <div class="title is-3">Awards</div>
             <ul style="line-height: 1.5em">
-              <li><span style="font-weight: bold;">2018-2022,</span> University Scholarships of ZJU </li>
+              <li><span style="font-weight: bold;">2023,</span> Outstanding Graduate Student of ZJU (Top 10%) </li>
+              <li><span style="font-weight: bold;">2019-2022,</span> University Scholarships of ZJU </li>
               <li><span style="font-weight: bold;">2019, </span> China Collegiate Programming Contest, Bronze Medal  </li>
             </ul>
           </div>
@@ -228,7 +244,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on May 27, 2024. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Jul 2, 2024. </div>
 </template>
 
 <style scoped>
