@@ -183,7 +183,8 @@ const badgeColor = {
             </p>
             <p class="paragraph">
               My research focuses on the design and development of interfaces and interactive tools tailored for data
-              practitioners, covering activities such as data wrangling, table construction, and data cleaning.
+              practitioners, covering activities such as data wrangling, table construction, and data cleaning. I am also highly interested 
+              in the sensemaking and application of large language models, especially in the context of visualization and data science.
             </p>
             <p class="paragraph">
               My CV is available <a href="https://yhuang.top/pdf/yanwei_CV.pdf">here</a>.
@@ -244,7 +245,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Jul 2, 2024. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Jul 3, 2024. </div>
 </template>
 
 <style scoped>
