@@ -182,7 +182,7 @@ const badgeColor = {
               University.
             </p>
             <p class="paragraph">
-              My research focuses on the design and development of interfaces and interactive tools tailored for data
+              I love designing interactive tools tailored for data
               practitioners, covering activities such as data wrangling, table construction, and data cleaning. I am also highly interested 
               in the sensemaking and application of large language models, especially in the context of visualization and data science.
             </p>
@@ -221,7 +221,7 @@ const badgeColor = {
             <br />
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
-              <li><span style="font-weight: bold;">2024.7-2024.12,</span> Visiting Student and Research Assistant @<a href="https://dig.cmu.edu/about">CMU DIG</a>
+              <li><span style="font-weight: bold;">2024.7-Present,</span> Visiting Student and Research Assistant @<a href="https://dig.cmu.edu/about">CMU DIG</a>
                 <ul>
                   <li style="font-size: 13px;">I am happy to work with <a href="https://perer.org/">Prof. Adam Perer</a> in Pittsburgh.</li>
                 </ul>
