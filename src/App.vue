@@ -98,9 +98,6 @@ const _years = Object.keys(publications.value).sort(function(a, b) {
   return b-a;
 });
 const news = [{
-  msg: "I am actively seeking Ph.D. positions in Vis/HCI for Fall 2025.",
-  time: "[TOP]",
-}, {
   msg: "I'm thrilled to spend this summer as a research assistant in CMU Data Interaction Group. Hello Pittsburgh!",
   time: "Jul. 2024",
 }, {
@@ -172,8 +169,11 @@ const badgeColor = {
         <div class="column c2 column-right is-full-mobile is-8-tablet is-8-desktop is-9-widescreen">
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
+            <p class="paragraph" style="font-weight: bold;">
+              I am actively looking for Ph.D. positions starting from Fall 2025. Please feel free to contact me if you are interested!
+            </p>
             <p class="paragraph">
-              I am currently pursuing a Master Degree in Computer Science at <a
+              I am a Master's student in Computer Science at <a
                 href="https://www.zju.edu.cn/english/">Zhejiang University</a>, supervised by <a
                 href="http://www.ycwu.org/">Prof. Yingcai Wu</a>. As a member of <a href="https://zjuidg.org/">ZJUIDG</a>,
               I am fortunate to work closely with <a href="https://dwe.ng/">Di Weng</a>, <a
@@ -239,6 +239,12 @@ const badgeColor = {
               <li><span style="font-weight: bold;">2023,</span> Outstanding Graduate Student of ZJU (Top 10%) </li>
               <li><span style="font-weight: bold;">2019-2022,</span> University Scholarships of ZJU </li>
               <li><span style="font-weight: bold;">2019, </span> China Collegiate Programming Contest, Bronze Medal  </li>
+            </ul>
+            <br />
+            <div class="title is-3">Teaching</div>
+            <ul style="line-height: 1.5em">
+              <li><span style="font-weight: bold;">Fall 2023,</span> "C Programming", provided guidance on lab projects (~120 students) </li>
+              <li><span style="font-weight: bold;">Fall 2022 - Spring 2024,</span> "Seminars for Mixed-class Students", organized seminars (~600 students)  </li>
             </ul>
           </div>
         </div>
