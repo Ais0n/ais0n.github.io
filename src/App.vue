@@ -98,7 +98,7 @@ const _years = Object.keys(publications.value).sort(function(a, b) {
   return b-a;
 });
 const news = [{
-  msg: "I'm thrilled to spend this summer as a research assistant in CMU Data Interaction Group. Hello Pittsburgh!",
+  msg: "I'm thrilled to spend this summer and fall as a visiting scholar in CMU Data Interaction Group. Hello Pittsburgh!",
   time: "Jul. 2024",
 }, {
   msg: "I'll present my paper \"Table Illustrator: Puzzle-based interactive authoring of plain tables\" in CHI'24 at Honolulu on May 13, 2024.",
@@ -131,7 +131,7 @@ const badgeColor = {
         <div class="column c1 column-left is-full-mobile is-4-tablet is-4-desktop is-3-widescreen">
           <div class="card">
             <a-avatar :size="150" :src="me" style="margin-bottom: 10px;"></a-avatar>
-            <div class="title is-4" style="font-weight: bold; margin: 0"> Yanwei Huang </div>
+            <div class="title is-4" style="font-weight: bold; margin: 0" title="Pronounced as /Ian-Weigh/"> Yanwei Huang </div>
             <div> 2nd-year master, ZJU </div>
             <div> Hangzhou, China </div>
             <a-button href="https://github.com/Ais0n" style="border:none">
@@ -221,12 +221,12 @@ const badgeColor = {
             <br />
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
-              <li><span style="font-weight: bold;">2024.7-Present,</span> Visiting Student and Research Assistant @<a href="https://dig.cmu.edu/about">CMU DIG</a>
+              <li><span style="font-weight: bold;">2024.7-Present,</span> Visiting Scholar @<a href="https://dig.cmu.edu/about">CMU DIG</a>
                 <ul>
                   <li style="font-size: 13px;">I am happy to work with <a href="https://perer.org/">Prof. Adam Perer</a> in Pittsburgh.</li>
                 </ul>
               </li>
-              <li><span style="font-weight: bold;">2021.7-2021.9,</span> Research Assistant @<a href="https://www.sustech.edu.cn/en/">SUSTech</a> & <a href="https://illinois.edu/">UIUC</a>
+              <li><span style="font-weight: bold;">2021.7-2021.9,</span> Research Assistant @<a href="https://www.sustech.edu.cn/en/">SUSTech</a> (and remotely with <a href="https://illinois.edu/">UIUC</a>)
                 <ul>
                   <li style="font-size: 13px;">I was lucky to work closely with <a href="https://lingming.cs.illinois.edu/">Prof. Lingming Zhang</a> and <a href="https://zhangyuqun.github.io/">Prof. Yuqun Zhang</a>.</li>
                 </ul>
@@ -237,6 +237,7 @@ const badgeColor = {
             <div class="title is-3">Awards</div>
             <ul style="line-height: 1.5em">
               <li><span style="font-weight: bold;">2023,</span> Outstanding Graduate Student of ZJU (Top 10%) </li>
+              <li><span style="font-weight: bold;">2022,</span> Yongping Scholarship (Top 10%) </li>
               <li><span style="font-weight: bold;">2019-2022,</span> University Scholarships of ZJU </li>
               <li><span style="font-weight: bold;">2019, </span> China Collegiate Programming Contest, Bronze Medal  </li>
             </ul>
@@ -244,7 +245,7 @@ const badgeColor = {
             <div class="title is-3">Teaching</div>
             <ul style="line-height: 1.5em">
               <li><span style="font-weight: bold;">Fall 2023,</span> "C Programming", provided guidance on lab projects (~120 students) </li>
-              <li><span style="font-weight: bold;">Fall 2022 - Spring 2024,</span> "Seminars for Mixed-class Students", organized seminars (~600 students)  </li>
+              <li><span style="font-weight: bold;">Fall 2022 - Spring 2024,</span> "Seminars for Mixed-class Students", organized bi-weekly academic seminars (~600 students)  </li>
             </ul>
           </div>
         </div>
