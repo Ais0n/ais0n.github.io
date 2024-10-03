@@ -170,21 +170,22 @@ const badgeColor = {
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
             <p class="paragraph" style="font-weight: bold;">
-              I am actively looking for Ph.D. positions starting from Fall 2025. Please feel free to contact me if you are interested!
+              I am actively looking for Ph.D. positions starting from Fall 2025. Please feel free to contact me if you are interested! I'll also attend VIS'24 and UIST'24, let's meet there!
             </p>
             <p class="paragraph">
               I am a Master's student in Computer Science at <a
                 href="https://www.zju.edu.cn/english/">Zhejiang University</a>, supervised by <a
                 href="http://www.ycwu.org/">Prof. Yingcai Wu</a>. As a member of <a href="https://zjuidg.org/">ZJUIDG</a>,
               I am fortunate to work closely with <a href="https://dwe.ng/">Di Weng</a>, <a
-                href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. Prior to
-              this, I obtained my Bachelor's degree in Computer Science from Chu Kochen Honors College, Zhejiang
+                href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I also work on research projects
+              on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a> from CMU. 
+              Prior to this, I obtained my Bachelor's degree in Computer Science from Chu Kochen Honors College, Zhejiang
               University.
             </p>
             <p class="paragraph">
-              I love designing interactive tools tailored for data
-              practitioners, covering activities such as data wrangling, table construction, and data cleaning. I am also highly interested 
-              in the sensemaking and application of large language models, especially in the context of visualization and data science.
+              I am interested in designing interactive tools for sensemaking and testing of large language models, especially in the context of visualization and data science. 
+              I also love designing tools tailored for data
+              practitioners, covering activities such as data wrangling, table construction, and data cleaning.
             </p>
             <p class="paragraph">
               My CV is available <a href="https://yhuang.top/pdf/yanwei_CV.pdf">here</a>.
@@ -223,7 +224,7 @@ const badgeColor = {
             <ul style="line-height: 1.5em">
               <li><span style="font-weight: bold;">2024.7-Present,</span> Visiting Scholar @<a href="https://dig.cmu.edu/about">CMU DIG</a>
                 <ul>
-                  <li style="font-size: 13px;">I am happy to work with <a href="https://perer.org/">Prof. Adam Perer</a> in Pittsburgh.</li>
+                  <li style="font-size: 13px;">I am happy to work with <a href="https://perer.org/">Prof. Adam Perer</a>, <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>, and many other wonderful colleagues in Pittsburgh.</li>
                 </ul>
               </li>
               <li><span style="font-weight: bold;">2021.7-2021.9,</span> Research Assistant @<a href="https://www.sustech.edu.cn/en/">SUSTech</a> (and remotely with <a href="https://illinois.edu/">UIUC</a>)
@@ -236,8 +237,9 @@ const badgeColor = {
             <br />
             <div class="title is-3">Awards</div>
             <ul style="line-height: 1.5em">
+              <li><span style="font-weight: bold;">2024,</span> Nominee for Chu Kochen Scholarship (The highest honor of ZJU)</li>
               <li><span style="font-weight: bold;">2023,</span> Outstanding Graduate Student of ZJU (Top 10%) </li>
-              <li><span style="font-weight: bold;">2022,</span> Yongping Scholarship (Top 10%) </li>
+              <li><span style="font-weight: bold;">2022,</span> Yongping Scholarship (ZJU, Top 1%) </li>
               <li><span style="font-weight: bold;">2019-2022,</span> University Scholarships of ZJU </li>
               <li><span style="font-weight: bold;">2019, </span> China Collegiate Programming Contest, Bronze Medal  </li>
             </ul>
@@ -247,12 +249,17 @@ const badgeColor = {
               <li><span style="font-weight: bold;">Fall 2023,</span> "C Programming", provided guidance on lab projects (~120 students) </li>
               <li><span style="font-weight: bold;">Fall 2022 - Spring 2024,</span> "Seminars for Mixed-class Students", organized bi-weekly academic seminars (~600 students)  </li>
             </ul>
+            <br />
+            <div class="title is-3">Services</div>
+            <ul style="line-height: 1.5em">
+              <li><span style="font-weight: bold;">2024-present, </span>Reviewer for IEEE VIS, IEEE PacificVis Journal Track, ACM CHI, ChinaVis </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Jul 3, 2024. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Oct 3, 2024. </div>
 </template>
 
 <style scoped>
