@@ -6,6 +6,7 @@ import Rigel from "./assets/Rigel.jpg";
 import NL2Rigel from "./assets/NL2Rigel.jpg";
 import Havoc from "./assets/havoc.png";
 import TI from "./assets/TI.png";
+import SV from "./assets/StructVizor.png";
 import {
   GithubOutlined,
   TwitterOutlined,
@@ -14,6 +15,15 @@ import {
 } from '@ant-design/icons-vue';
 import { ref } from 'vue'
 const publications = ref({
+  "Under Review / In progress": [{
+    title: "StructVizor: Interactive profiling of semi-structured textual data",
+    links: [],
+    imgsrc: SV,
+    authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
+    venue: "ACM CHI",
+    venue_full: "CHI 2025 (Under Review)",
+    note: "test",
+  }],
   "2024": [{
     title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
     links: [{
@@ -95,6 +105,9 @@ const publications = ref({
   }]
 });
 const _years = Object.keys(publications.value).sort(function(a, b) {
+  if(typeof (a) === 'string' && typeof (b) === 'string') {
+    return b.localeCompare(a);
+  }
   return b-a;
 });
 const news = [{
@@ -132,7 +145,7 @@ const badgeColor = {
           <div class="card">
             <a-avatar :size="150" :src="me" style="margin-bottom: 10px;"></a-avatar>
             <div class="title is-4" style="font-weight: bold; margin: 0" title="Pronounced as /Ian-Weigh/"> Yanwei Huang </div>
-            <div> 2nd-year master, ZJU </div>
+            <div> MSCS Student, ZJU </div>
             <div> Hangzhou, China </div>
             <a-button href="https://github.com/Ais0n" style="border:none">
               <template #icon>
@@ -183,7 +196,7 @@ const badgeColor = {
               University.
             </p>
             <p class="paragraph">
-              I am interested in designing interactive tools for sensemaking and testing of large language models, especially in the context of visualization and data science. 
+              I am interested in designing interactive tools for <b>sensemaking and testing of large language models, especially in the context of visualization and data science.</b> 
               I also love designing tools tailored for data
               practitioners, covering activities such as data wrangling, table construction, and data cleaning.
             </p>
@@ -237,8 +250,8 @@ const badgeColor = {
             <br />
             <div class="title is-3">Awards</div>
             <ul style="line-height: 1.5em">
-              <li><span style="font-weight: bold;">2024,</span> Nominee for Chu Kochen Scholarship (The highest honor of ZJU)</li>
-              <li><span style="font-weight: bold;">2023,</span> Outstanding Graduate Student of ZJU (Top 10%) </li>
+              <li><span style="font-weight: bold;">2024,</span> National Scholarship </li>
+              <li><span style="font-weight: bold;">2023-2024,</span> Outstanding Graduate Student of ZJU (Top 10%) </li>
               <li><span style="font-weight: bold;">2022,</span> Yongping Scholarship (ZJU, Top 1%) </li>
               <li><span style="font-weight: bold;">2019-2022,</span> University Scholarships of ZJU </li>
               <li><span style="font-weight: bold;">2019, </span> China Collegiate Programming Contest, Bronze Medal  </li>
@@ -259,7 +272,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Oct 3, 2024. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Oct 13, 2024. </div>
 </template>
 
 <style scoped>
@@ -308,7 +321,7 @@ const badgeColor = {
 }
 
 .articleImgContainer {
-  width: 42%;
+  width: 30%;
   padding: 5px 15px;
   position: relative;
 }
@@ -318,7 +331,7 @@ const badgeColor = {
 }
 
 .articleDescription {
-  width: 58%;
+  width: 70%;
   padding: 5px 15px;
 }
 
