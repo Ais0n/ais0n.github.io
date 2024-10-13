@@ -110,20 +110,23 @@ const _years = Object.keys(publications.value).sort(function(a, b) {
   }
   return b-a;
 });
-const news = [{
+const news = [ {
+  msg: "Serving as a student volunteer in UIST'24 at Pittsburgh! Please say hi if you are there!",
+  time: "Oct. 2024",
+ }, {
   msg: "I'm thrilled to spend this summer and fall as a visiting scholar in CMU Data Interaction Group. Hello Pittsburgh!",
   time: "Jul. 2024",
 }, {
-  msg: "I'll present my paper \"Table Illustrator: Puzzle-based interactive authoring of plain tables\" in CHI'24 at Honolulu on May 13, 2024.",
+  msg: "I'll present Table Illustrator in CHI'24 at Honolulu on May 13, 2024.",
   time: "Mar. 2024",
 }, {
-  msg: "One paper has been accepted by IEEE TVCG! Great thanks to all collaborators!",
+  msg: "One paper is accepted by IEEE TVCG! Great thanks to all collaborators!",
   time: "Oct. 2023",
 }, {
-  msg: "I obtained my B.E. degree at ZJU and will start my graduate career this fall.",
+  msg: "I obtained my B.E. degree at ZJU.",
   time: "Sept. 2022",
 }, {
-  msg: "One of our papers has been accepted by IEEE VIS 2022.",
+  msg: "One paper is accepted by IEEE VIS 2022.",
   time: "Jun. 2022",
 }]
 
@@ -191,7 +194,7 @@ const badgeColor = {
                 href="http://www.ycwu.org/">Prof. Yingcai Wu</a>. As a member of <a href="https://zjuidg.org/">ZJUIDG</a>,
               I am fortunate to work closely with <a href="https://dwe.ng/">Di Weng</a>, <a
                 href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I also work on research projects
-              on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a> from CMU. 
+              on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a> in CMU. 
               Prior to this, I obtained my Bachelor's degree in Computer Science from Chu Kochen Honors College, Zhejiang
               University.
             </p>
@@ -265,6 +268,7 @@ const badgeColor = {
             <br />
             <div class="title is-3">Services</div>
             <ul style="line-height: 1.5em">
+              <li><span style="font-weight: bold;">2024, </span>Student volunteer for UIST'24 </li>
               <li><span style="font-weight: bold;">2024-present, </span>Reviewer for IEEE VIS, IEEE PacificVis Journal Track, ACM CHI, ChinaVis </li>
             </ul>
           </div>
