@@ -15,15 +15,6 @@ import {
 } from '@ant-design/icons-vue';
 import { ref } from 'vue'
 const publications = ref({
-  "Under Review / In progress": [{
-    title: "StructVizor: Interactive profiling of semi-structured textual data",
-    links: [],
-    imgsrc: SV,
-    authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
-    venue: "ACM CHI",
-    venue_full: "CHI 2025 (Under Review)",
-    note: "test",
-  }],
   "2024": [{
     title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
     links: [{
