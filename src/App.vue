@@ -7,6 +7,7 @@ import NL2Rigel from "./assets/NL2Rigel.jpg";
 import Havoc from "./assets/havoc.png";
 import TI from "./assets/TI.png";
 import SV from "./assets/StructVizor.png";
+import VP from "./assets/vipera.png";
 import {
   GithubOutlined,
   TwitterOutlined,
@@ -15,6 +16,23 @@ import {
 } from '@ant-design/icons-vue';
 import { ref } from 'vue'
 const publications = ref({
+  "Under Review / In progress": [{
+    title: "StructVizor: Interactive profiling of semi-structured textual data",
+    links: [],
+    imgsrc: SV,
+    authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
+    venue: "ACM CHI",
+    venue_full: "CHI 2025 (Under Review)",
+    note: "test",
+  }, {
+    title: "Vipera: Auditing text-to-image models with structured multi-faceted analysis",
+    links: [],
+    imgsrc: VP,
+    authors: ["Yanwei Huang", "Wesley Deng", "Adam Perer", "Jason Hong"],
+    venue: "In Progress",
+    venue_full: "In Progress",
+    note: "test",
+  }],
   "2024": [{
     title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
     links: [{
@@ -177,7 +195,7 @@ const badgeColor = {
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
             <p class="paragraph" style="font-weight: bold;">
-              I am actively looking for Ph.D. positions starting from Fall 2025. Please feel free to contact me if you are interested! I'll also attend VIS'24 and UIST'24, let's meet there!
+              I am actively looking for Ph.D. positions starting from Fall 2025. Please feel free to contact me if you are interested!
             </p>
             <p class="paragraph">
               I am a Master's student in Computer Science at <a
