@@ -8,6 +8,8 @@ import Havoc from "./assets/havoc.png";
 import TI from "./assets/TI.png";
 import SV from "./assets/StructVizor.png";
 import VP from "./assets/vipera.png";
+import RB from "./assets/ridgebuilder.png";
+import XV from "./assets/xavier.png";
 import {
   GithubOutlined,
   TwitterOutlined,
@@ -17,22 +19,43 @@ import {
 import { ref } from 'vue'
 const publications = ref({
   "Under Review / In progress": [{
-    title: "StructVizor: Interactive profiling of semi-structured textual data",
-    links: [],
-    imgsrc: SV,
-    authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
-    venue: "ACM CHI",
-    venue_full: "CHI 2025 (Under Review)",
-    note: "test",
-  }, {
-    title: "Vipera: Auditing text-to-image models with structured multi-faceted analysis",
+    title: "Vipera: Towards systematic auditing of generative text-to-image models at scale",
     links: [],
     imgsrc: VP,
-    authors: ["Yanwei Huang", "Wesley Deng", "Adam Perer", "Jason Hong"],
-    venue: "In Progress",
-    venue_full: "In Progress",
+    authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Ken Holstein", "Jason Hong", "Adam Perer"],
+    venue: "ACM CHI",
+    venue_full: "CHI Late-Breaking Work 2025 (Under Review)",
     note: "test",
   }],
+  "2025": [
+    {
+      title: "StructVizor: Interactive profiling of semi-structured textual data",
+      links: [],
+      imgsrc: SV,
+      authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
+      venue: "ACM CHI",
+      venue_full: "CHI 2025 (Accepted)",
+      note: "test",
+    },
+    {
+      title: "RidgeBuilder: Interactive Authoring of Expressive Ridgeline Plots",
+      links: [],
+      imgsrc: RB,
+      authors: ["Shuhan Liu", "Yangtian Liu", "Junxin Li", "Yanwei Huang", "Yue Shangguan", "Zikun Deng", "Di Weng", "Yingcai Wu"],
+      venue: "ACM CHI",
+      venue_full: "CHI 2025 (Accepted)",
+      note: "test",
+    },
+    {
+      title: "Xavier: Toward Better Coding Assistance in Authoring Tabular Data Wrangling Scripts",
+      links: [],
+      imgsrc: XV,
+      authors: ["Yunfan Zhou", "Xiwen Cai", "Qiming Shi", "Yanwei Huang", "Haotian Li", "Huamin Qu", "Di Weng", "Yingcai Wu"],
+      venue: "ACM CHI",
+      venue_full: "CHI 2025 (Accepted)",
+      note: "test",
+    }
+  ],
   "2024": [{
     title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
     links: [{
@@ -113,16 +136,19 @@ const publications = ref({
     venue_full: "ICSE 2022 - Pittsburgh, PA, USA",
   }]
 });
-const _years = Object.keys(publications.value).sort(function(a, b) {
-  if(typeof (a) === 'string' && typeof (b) === 'string') {
+const _years = Object.keys(publications.value).sort(function (a, b) {
+  if (typeof (a) === 'string' && typeof (b) === 'string') {
     return b.localeCompare(a);
   }
-  return b-a;
+  return b - a;
 });
-const news = [ {
+const news = [{
+  msg: "Three papers accepted by ACM CHI 2025! See you in Yokohama!",
+  time: "Jan. 2025",
+}, {
   msg: "Serving as a student volunteer in UIST'24 at Pittsburgh! Please say hi if you are there!",
   time: "Oct. 2024",
- }, {
+}, {
   msg: "I'm thrilled to spend this summer and fall as a visiting scholar in CMU Data Interaction Group. Hello Pittsburgh!",
   time: "Jul. 2024",
 }, {
@@ -156,7 +182,8 @@ const badgeColor = {
         <div class="column c1 column-left is-full-mobile is-4-tablet is-4-desktop is-3-widescreen">
           <div class="card">
             <a-avatar :size="150" :src="me" style="margin-bottom: 10px;"></a-avatar>
-            <div class="title is-4" style="font-weight: bold; margin: 0" title="Pronounced as /Ian-Weigh/"> Yanwei Huang </div>
+            <div class="title is-4" style="font-weight: bold; margin: 0" title="Pronounced as /Ian-Weigh/"> Yanwei Huang
+            </div>
             <div> MSCS Student, ZJU </div>
             <div> Hangzhou, China </div>
             <a-button href="https://github.com/Ais0n" style="border:none">
@@ -182,33 +209,42 @@ const badgeColor = {
           </div>
           <div class="card" style="text-align: left;">
             <div class="title is-3">News</div>
-              <ul style="line-height: 1.5em">
-                <li v-for="(item, index) in news">
-                  <span style="font-weight: bold;">{{ item.time }}</span>
-                  <span> - {{ item.msg }} </span>
-                  <br/><br/>
-                </li>
-              </ul>
+            <ul style="line-height: 1.5em">
+              <li v-for="(item, index) in news">
+                <span style="font-weight: bold;">{{ item.time }}</span>
+                <span> - {{ item.msg }} </span>
+                <br /><br />
+              </li>
+            </ul>
           </div>
         </div>
         <div class="column c2 column-right is-full-mobile is-8-tablet is-8-desktop is-9-widescreen">
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
             <p class="paragraph" style="font-weight: bold;">
-              I am actively looking for Ph.D. positions starting from Fall 2025. Please feel free to contact me if you are interested!
+              I am actively looking for Ph.D. positions starting from Fall 2025. Please feel free to contact me if you
+              are
+              interested!
             </p>
             <p class="paragraph">
-              I am a Master's student in Computer Science at <a
-                href="https://www.zju.edu.cn/english/">Zhejiang University</a>, supervised by <a
-                href="http://www.ycwu.org/">Prof. Yingcai Wu</a>. As a member of <a href="https://zjuidg.org/">ZJUIDG</a>,
+              I am a Master's student in Computer Science at <a href="https://www.zju.edu.cn/english/">Zhejiang
+                University</a>,
+              supervised by <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>. As a member of <a
+                href="https://zjuidg.org/">ZJUIDG</a>,
               I am fortunate to work closely with <a href="https://dwe.ng/">Di Weng</a>, <a
-                href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I also work on research projects
-              on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a> in CMU. 
-              Prior to this, I obtained my Bachelor's degree in Computer Science from Chu Kochen Honors College, Zhejiang
+                href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I also
+              work on
+              research projects
+              on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a
+                href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a> in CMU.
+              Prior to this, I obtained my Bachelor's degree in Computer Science from Chu Kochen Honors College,
+              Zhejiang
               University.
             </p>
             <p class="paragraph">
-              I am interested in designing interactive tools for <b>sensemaking and testing of large language models, especially in the context of visualization and data science.</b> 
+              I am interested in designing interactive tools for <b>sensemaking and testing of large language models,
+                especially
+                in the context of visualization and data science.</b>
               I also love designing tools tailored for data
               practitioners, covering activities such as data wrangling, table construction, and data cleaning.
             </p>
@@ -217,11 +253,12 @@ const badgeColor = {
             </p>
             <br />
             <div class="title is-3">Research</div>
-              <div v-for="(year, _i) in _years">
+            <div v-for="(year, _i) in _years">
               <div class="title is-4" style="margin-top: 15px"> {{ year }} </div>
               <div v-for="(item, index) in publications[year]" class="articleItem">
                 <div class="articleImgContainer">
-                  <a-badge-ribbon :text="item.venue" :color="item.venue && badgeColor[item.venue] ? badgeColor[item.venue] : 'grey'"
+                  <a-badge-ribbon :text="item.venue"
+                    :color="item.venue && badgeColor[item.venue] ? badgeColor[item.venue] : 'grey'"
                     style="padding: 0 15px;">
                     <img class="articleImg" :src="item.imgsrc" />
                   </a-badge-ribbon>
@@ -229,16 +266,17 @@ const badgeColor = {
                 <div class="articleDescription">
                   <div class="title is-5" style="font-weight: bold;"> {{ item.title }} </div>
                   <div>
-                    <span v-for="(author, i) in item.authors" :class="{ 'authorHighlighted': author == 'Yanwei Huang' }"> {{
-                      i
-                      != item.authors.length - 1 ? author + ', ' : 'and ' + author }} </span>
+                    <span v-for="(author, i) in item.authors"
+                      :class="{ 'authorHighlighted': author == 'Yanwei Huang' }"> {{
+                        i
+                          != item.authors.length - 1 ? author + ', ' : 'and ' + author }} </span>
                   </div>
                   <div style="font-style: italic;">
                     <span> {{ item.venue_full }} </span>
                   </div>
                   <div style="margin-top: 5px">
                     <a-tag v-for="(lnk, i) in item.links">
-                      <a :class="{'disabled-link': lnk.href == ''}" :href="lnk.href"> {{ lnk.name }} </a>
+                      <a :class="{ 'disabled-link': lnk.href == '' }" :href="lnk.href"> {{ lnk.name }} </a>
                     </a-tag>
                   </div>
                 </div>
@@ -247,17 +285,26 @@ const badgeColor = {
             <br />
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
-              <li><span style="font-weight: bold;">2024.7-Present,</span> Visiting Scholar @<a href="https://dig.cmu.edu/about">CMU DIG</a>
+              <li><span style="font-weight: bold;">2024.7-2024.12,</span> Visiting Scholar @<a
+                  href="https://dig.cmu.edu/about">CMU DIG</a>
                 <ul>
-                  <li style="font-size: 13px;">I am happy to work with <a href="https://perer.org/">Prof. Adam Perer</a>, <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>, and many other wonderful colleagues in Pittsburgh.</li>
+                  <li style="font-size: 13px;">I am happy to work with <a href="https://perer.org/">Prof. Adam
+                      Perer</a>, <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>, and many other
+                    wonderful colleagues in
+                    Pittsburgh.</li>
                 </ul>
               </li>
-              <li><span style="font-weight: bold;">2021.7-2021.9,</span> Research Assistant @<a href="https://www.sustech.edu.cn/en/">SUSTech</a> (and remotely with <a href="https://illinois.edu/">UIUC</a>)
+              <li><span style="font-weight: bold;">2021.7-2021.9,</span> Research Assistant @<a
+                  href="https://www.sustech.edu.cn/en/">SUSTech</a> (and remotely with <a
+                  href="https://illinois.edu/">UIUC</a>)
                 <ul>
-                  <li style="font-size: 13px;">I was lucky to work closely with <a href="https://lingming.cs.illinois.edu/">Prof. Lingming Zhang</a> and <a href="https://zhangyuqun.github.io/">Prof. Yuqun Zhang</a>.</li>
+                  <li style="font-size: 13px;">I was lucky to work closely with <a
+                      href="https://lingming.cs.illinois.edu/">Prof. Lingming Zhang</a> and <a
+                      href="https://zhangyuqun.github.io/">Prof. Yuqun Zhang</a>.</li>
                 </ul>
               </li>
-              <li><span style="font-weight: bold;">2021.2-2021.6,</span> Frontend Engineer @<a href="https://www.bytedance.com/en/">ByteDance Inc.</a></li>
+              <li><span style="font-weight: bold;">2021.2-2021.6,</span> Frontend Engineer @<a
+                  href="https://www.bytedance.com/en/">ByteDance Inc.</a></li>
             </ul>
             <br />
             <div class="title is-3">Awards</div>
@@ -266,26 +313,32 @@ const badgeColor = {
               <li><span style="font-weight: bold;">2023-2024,</span> Outstanding Graduate Student of ZJU (Top 10%) </li>
               <li><span style="font-weight: bold;">2022,</span> Yongping Scholarship (ZJU, Top 1%) </li>
               <li><span style="font-weight: bold;">2019-2022,</span> University Scholarships of ZJU </li>
-              <li><span style="font-weight: bold;">2019, </span> China Collegiate Programming Contest, Bronze Medal  </li>
+              <li><span style="font-weight: bold;">2019, </span> China Collegiate Programming Contest, Bronze Medal
+              </li>
             </ul>
             <br />
             <div class="title is-3">Teaching</div>
             <ul style="line-height: 1.5em">
-              <li><span style="font-weight: bold;">Fall 2023,</span> "C Programming", provided guidance on lab projects (~120 students) </li>
-              <li><span style="font-weight: bold;">Fall 2022 - Spring 2024,</span> "Seminars for Mixed-class Students", organized bi-weekly academic seminars (~600 students)  </li>
+              <li><span style="font-weight: bold;">Fall 2023,</span> "C Programming", provided guidance on lab projects
+                (~120
+                students) </li>
+              <li><span style="font-weight: bold;">Fall 2022 - Spring 2024,</span> "Seminars for Mixed-class Students",
+                organized bi-weekly academic seminars (~600 students) </li>
             </ul>
             <br />
             <div class="title is-3">Services</div>
             <ul style="line-height: 1.5em">
               <li><span style="font-weight: bold;">2024, </span>Student volunteer for UIST'24 </li>
-              <li><span style="font-weight: bold;">2024-present, </span>Reviewer for IEEE VIS, IEEE PacificVis Journal Track, ACM CHI, ChinaVis </li>
+              <li><span style="font-weight: bold;">2024-present, </span>Reviewer for IEEE VIS, IEEE PacificVis Journal
+                Track,
+                ACM CHI, ChinaVis </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Oct 13, 2024. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Jan 17, 2025. </div>
 </template>
 
 <style scoped>
