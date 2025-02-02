@@ -242,11 +242,10 @@ const badgeColor = {
               University.
             </p>
             <p class="paragraph">
-              I am interested in designing interactive tools for <b>sensemaking and testing of large language models,
+              I love designing tools tailored for data
+              practitioners, covering activities such as data wrangling, table construction, and data cleaning. I am also interested in designing interactive tools for sensemaking and auditing of large language models,
                 especially
-                in the context of visualization and data science.</b>
-              I also love designing tools tailored for data
-              practitioners, covering activities such as data wrangling, table construction, and data cleaning.
+                in the context of visualization and data science.
             </p>
             <p class="paragraph">
               My CV is available <a href="https://yhuang.top/pdf/yanwei_CV.pdf">here</a>.
