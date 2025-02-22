@@ -152,7 +152,7 @@ const _years = Object.keys(publications.value).sort(function (a, b) {
   return b - a;
 });
 const news = [{
-  msg: "Three papers accepted by ACM CHI 2025! See you in Yokohama!",
+  msg: "Three full papers and one late-breaking work have been accepted by ACM CHI 2025! See you in Yokohama!",
   time: "Jan. 2025",
 }, {
   msg: "Serving as a student volunteer in UIST'24 at Pittsburgh! Please say hi if you are there!",
