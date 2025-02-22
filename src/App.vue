@@ -18,16 +18,25 @@ import {
 } from '@ant-design/icons-vue';
 import { ref } from 'vue'
 const publications = ref({
-  "Under Review / In progress": [{
-    title: "Vipera: Towards systematic auditing of generative text-to-image models at scale",
-    links: [],
-    imgsrc: VP,
-    authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Ken Holstein", "Jason Hong", "Adam Perer"],
-    venue: "ACM CHI",
-    venue_full: "CHI Late-Breaking Work 2025 (Under Review)",
-    note: "test",
-  }],
+  // "Under Review / In progress": [{
+  //   title: "Vipera: Towards systematic auditing of generative text-to-image models at scale",
+  //   links: [],
+  //   imgsrc: VP,
+  //   authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Ken Holstein", "Jason Hong", "Adam Perer"],
+  //   venue: "ACM CHI",
+  //   venue_full: "CHI Late-Breaking Work 2025 (Under Review)",
+  //   note: "test",
+  // }],
   "2025": [
+    {
+      title: "Vipera: Towards systematic auditing of generative text-to-image models at scale",
+      links: [],
+      imgsrc: VP,
+      authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason Hong", "Adam Perer"],
+      venue: "ACM CHI",
+      venue_full: "CHI Late-Breaking Work 2025 (Accepted)",
+      note: "test",
+    },
     {
       title: "StructVizor: Interactive profiling of semi-structured textual data",
       links: [],
@@ -337,7 +346,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Jan 17, 2025. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Feb 22, 2025. </div>
 </template>
 
 <style scoped>
