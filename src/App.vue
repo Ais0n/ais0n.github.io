@@ -44,7 +44,7 @@ const publications = ref({
         href: "https://arxiv.org/abs/2503.06500"
       }, {
         name: "PDF",
-        href: "https://yhuang.top/pdf/chi25_StructVizor.pdf"
+        href: "https://yhuang.top/pdf/chi25_Structvizor.pdf"
       }],
       imgsrc: SV,
       authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
