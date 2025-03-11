@@ -39,7 +39,13 @@ const publications = ref({
     },
     {
       title: "StructVizor: Interactive profiling of semi-structured textual data",
-      links: [],
+      links: [{
+        name: "Paper (Preprint)",
+        href: "https://arxiv.org/abs/2503.06500"
+      }, {
+        name: "PDF",
+        href: "https://yhuang.top/pdf/chi25_StructVizor.pdf"
+      }],
       imgsrc: SV,
       authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
       venue: "ACM CHI",
@@ -57,7 +63,10 @@ const publications = ref({
     },
     {
       title: "Xavier: Toward Better Coding Assistance in Authoring Tabular Data Wrangling Scripts",
-      links: [],
+      links: [{
+        name: "Paper (Preprint)",
+        href: "https://arxiv.org/abs/2503.02639"
+      }],
       imgsrc: XV,
       authors: ["Yunfan Zhou", "Xiwen Cai", "Qiming Shi", "Yanwei Huang", "Haotian Li", "Huamin Qu", "Di Weng", "Yingcai Wu"],
       venue: "ACM CHI",
@@ -346,7 +355,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Feb 22, 2025. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Mar 11, 2025. </div>
 </template>
 
 <style scoped>
