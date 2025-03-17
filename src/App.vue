@@ -30,7 +30,13 @@ const publications = ref({
   "2025": [
     {
       title: "Vipera: Towards systematic auditing of generative text-to-image models at scale",
-      links: [],
+      links: [{
+        name: "Paper (Preprint)",
+        href: "https://arxiv.org/abs/2503.11113"
+      }, {
+        name: "PDF",
+        href: "https://yhuang.top/pdf/chi25_Vipera.pdf"
+      }],
       imgsrc: VP,
       authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason Hong", "Adam Perer"],
       venue: "ACM CHI",
@@ -355,7 +361,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Mar 11, 2025. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Mar 17, 2025. </div>
 </template>
 
 <style scoped>
