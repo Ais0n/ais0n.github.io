@@ -40,7 +40,7 @@ const publications = ref({
       imgsrc: VP,
       authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason Hong", "Adam Perer"],
       venue: "ACM CHI",
-      venue_full: "CHI Late-Breaking Work 2025 (Accepted)",
+      venue_full: "CHI Late-Breaking Work 2025",
       note: "test",
     },
     {
@@ -55,7 +55,7 @@ const publications = ref({
       imgsrc: SV,
       authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
       venue: "ACM CHI",
-      venue_full: "CHI 2025 (Accepted)",
+      venue_full: "CHI 2025",
       note: "test",
     },
     {
@@ -64,7 +64,7 @@ const publications = ref({
       imgsrc: RB,
       authors: ["Shuhan Liu", "Yangtian Liu", "Junxin Li", "Yanwei Huang", "Yue Shangguan", "Zikun Deng", "Di Weng", "Yingcai Wu"],
       venue: "ACM CHI",
-      venue_full: "CHI 2025 (Accepted)",
+      venue_full: "CHI 2025",
       note: "test",
     },
     {
@@ -72,11 +72,14 @@ const publications = ref({
       links: [{
         name: "Paper (Preprint)",
         href: "https://arxiv.org/abs/2503.02639"
+      }, {
+        name: "PDF",
+        href: "https://yhuang.top/pdf/chi25_Xavier.pdf"
       }],
       imgsrc: XV,
       authors: ["Yunfan Zhou", "Xiwen Cai", "Qiming Shi", "Yanwei Huang", "Haotian Li", "Huamin Qu", "Di Weng", "Yingcai Wu"],
       venue: "ACM CHI",
-      venue_full: "CHI 2025 (Accepted)",
+      venue_full: "CHI 2025",
       note: "test",
     }
   ],
@@ -167,6 +170,9 @@ const _years = Object.keys(publications.value).sort(function (a, b) {
   return b - a;
 });
 const news = [{
+  msg: "I'll present StructVizor in CHI'25 at Yokohama on April 29, 2025.",
+  time: "Mar. 2025",
+},{
   msg: "Three full papers and one late-breaking work have been accepted by ACM CHI 2025! See you in Yokohama!",
   time: "Jan. 2025",
 }, {
@@ -245,11 +251,6 @@ const badgeColor = {
         <div class="column c2 column-right is-full-mobile is-8-tablet is-8-desktop is-9-widescreen">
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
-            <p class="paragraph" style="font-weight: bold;">
-              I am actively looking for Ph.D. positions starting from Fall 2025. Please feel free to contact me if you
-              are
-              interested!
-            </p>
             <p class="paragraph">
               I am a Master's student in Computer Science at <a href="https://www.zju.edu.cn/english/">Zhejiang
                 University</a>,
