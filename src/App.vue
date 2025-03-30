@@ -36,6 +36,9 @@ const publications = ref({
       }, {
         name: "PDF",
         href: "https://yhuang.top/pdf/chi25_Vipera.pdf"
+      }, {
+        name: "Demo",
+        href: "https://1drv.ms/v/c/b7ad7e8f57609aeb/EUEzsCnQSTFEp-b07nRpN9sBy7A6GO_aSpeQJJixybV75Q?e=LidVCA"
       }],
       imgsrc: VP,
       authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason Hong", "Adam Perer"],
@@ -51,6 +54,9 @@ const publications = ref({
       }, {
         name: "PDF",
         href: "https://yhuang.top/pdf/chi25_Structvizor.pdf"
+      }, {
+        name: "Demo",
+        href: "https://1drv.ms/v/c/b7ad7e8f57609aeb/ERpPkMkbv6hChQnh19XHTGwB1zwht-jFwZdOfYqmruFayw?e=uYSIk1"
       }],
       imgsrc: SV,
       authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
@@ -172,7 +178,7 @@ const _years = Object.keys(publications.value).sort(function (a, b) {
 const news = [{
   msg: "I'll present StructVizor in CHI'25 at Yokohama on April 29, 2025.",
   time: "Mar. 2025",
-},{
+}, {
   msg: "Three full papers and one late-breaking work have been accepted by ACM CHI 2025! See you in Yokohama!",
   time: "Jan. 2025",
 }, {
@@ -268,9 +274,11 @@ const badgeColor = {
             </p>
             <p class="paragraph">
               I love designing tools tailored for data
-              practitioners, covering activities such as data wrangling, table construction, and data cleaning. I am also interested in designing interactive tools for sensemaking and auditing of large language models,
-                especially
-                in the context of visualization and data science.
+              practitioners, covering activities such as data wrangling, table construction, and data cleaning. I am
+              also
+              interested in designing interactive tools for sensemaking and auditing of large language models,
+              especially
+              in the context of visualization and data science.
             </p>
             <p class="paragraph">
               My CV is available <a href="https://yhuang.top/pdf/yanwei_CV.pdf">here</a>.
