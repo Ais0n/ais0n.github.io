@@ -39,6 +39,9 @@ const publications = ref({
       }, {
         name: "Demo",
         href: "https://1drv.ms/v/c/b7ad7e8f57609aeb/EUEzsCnQSTFEp-b07nRpN9sBy7A6GO_aSpeQJJixybV75Q?e=LidVCA"
+      }, {
+        name: "Poster",
+        href: "https://yhuang.top/pdf/vipera_poster.pdf"
       }],
       imgsrc: VP,
       authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason Hong", "Adam Perer"],
