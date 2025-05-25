@@ -42,6 +42,9 @@ const publications = ref({
       }, {
         name: "Poster",
         href: "https://yhuang.top/pdf/vipera_poster.pdf"
+      }, {
+        name: "System",
+        href: "https://vipera-latest.vercel.app/decoupled"
       }],
       imgsrc: VP,
       authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason Hong", "Adam Perer"],
@@ -178,30 +181,34 @@ const _years = Object.keys(publications.value).sort(function (a, b) {
   }
   return b - a;
 });
-const news = [{
+const news = [
+{
+  msg: "The Vipera system is now publicly available.",
+  time: "May 2025",
+}, {
   msg: "I'll present StructVizor in CHI'25 at Yokohama on April 29, 2025.",
-  time: "Mar. 2025",
+  time: "Mar 2025",
 }, {
   msg: "Three full papers and one late-breaking work have been accepted by ACM CHI 2025! See you in Yokohama!",
-  time: "Jan. 2025",
+  time: "Jan 2025",
 }, {
   msg: "Serving as a student volunteer in UIST'24 at Pittsburgh! Please say hi if you are there!",
-  time: "Oct. 2024",
+  time: "Oct 2024",
 }, {
   msg: "I'm thrilled to spend this summer and fall as a visiting scholar in CMU Data Interaction Group. Hello Pittsburgh!",
-  time: "Jul. 2024",
+  time: "Jul 2024",
 }, {
   msg: "I'll present Table Illustrator in CHI'24 at Honolulu on May 13, 2024.",
-  time: "Mar. 2024",
+  time: "Mar 2024",
 }, {
   msg: "One paper is accepted by IEEE TVCG! Great thanks to all collaborators!",
-  time: "Oct. 2023",
+  time: "Oct 2023",
 }, {
   msg: "I obtained my B.E. degree at ZJU.",
-  time: "Sept. 2022",
+  time: "Sept 2022",
 }, {
   msg: "One paper is accepted by IEEE VIS 2022.",
-  time: "Jun. 2022",
+  time: "Jun 2022",
 }]
 
 const badgeColor = {
@@ -373,7 +380,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Mar 17, 2025. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on May 26, 2025. </div>
 </template>
 
 <style scoped>
