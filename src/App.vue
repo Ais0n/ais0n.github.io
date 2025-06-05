@@ -31,14 +31,14 @@ const publications = ref({
     {
       title: "Vipera: Towards systematic auditing of generative text-to-image models at scale",
       links: [{
-        name: "Paper (Preprint)",
-        href: "https://arxiv.org/abs/2503.11113"
+        name: "Paper",
+        href: "https://dl.acm.org/doi/10.1145/3706599.3719757"
       }, {
         name: "PDF",
         href: "https://yhuang.top/pdf/chi25_Vipera.pdf"
       }, {
         name: "Demo",
-        href: "https://1drv.ms/v/c/b7ad7e8f57609aeb/EUEzsCnQSTFEp-b07nRpN9sBy7A6GO_aSpeQJJixybV75Q?e=LidVCA"
+        href: "https://www.youtube.com/watch?v=TeteImSceMU"
       }, {
         name: "Poster",
         href: "https://yhuang.top/pdf/vipera_poster.pdf"
@@ -55,14 +55,14 @@ const publications = ref({
     {
       title: "StructVizor: Interactive profiling of semi-structured textual data",
       links: [{
-        name: "Paper (Preprint)",
-        href: "https://arxiv.org/abs/2503.06500"
+        name: "Paper",
+        href: "https://dl.acm.org/doi/10.1145/3706598.3713484"
       }, {
         name: "PDF",
         href: "https://yhuang.top/pdf/chi25_Structvizor.pdf"
       }, {
         name: "Demo",
-        href: "https://1drv.ms/v/c/b7ad7e8f57609aeb/ERpPkMkbv6hChQnh19XHTGwB1zwht-jFwZdOfYqmruFayw?e=uYSIk1"
+        href: "https://www.youtube.com/watch?v=f5iUhyCGEvs"
       }],
       imgsrc: SV,
       authors: ["Yanwei Huang", "Yan Miao", "Di Weng", "Adam Perer", "Yingcai Wu"],
@@ -72,7 +72,13 @@ const publications = ref({
     },
     {
       title: "RidgeBuilder: Interactive Authoring of Expressive Ridgeline Plots",
-      links: [],
+      links: [{
+        "name": "Paper",
+        "href": "https://dl.acm.org/doi/10.1145/3706598.3714209"
+      }, {
+        "name": "Demo",
+        "href": "https://www.youtube.com/watch?v=_HfTTutGDkU"
+      }],
       imgsrc: RB,
       authors: ["Shuhan Liu", "Yangtian Liu", "Junxin Li", "Yanwei Huang", "Yue Shangguan", "Zikun Deng", "Di Weng", "Yingcai Wu"],
       venue: "ACM CHI",
@@ -82,11 +88,14 @@ const publications = ref({
     {
       title: "Xavier: Toward Better Coding Assistance in Authoring Tabular Data Wrangling Scripts",
       links: [{
-        name: "Paper (Preprint)",
-        href: "https://arxiv.org/abs/2503.02639"
+        name: "Paper",
+        href: "https://dl.acm.org/doi/10.1145/3706598.3714239"
       }, {
         name: "PDF",
         href: "https://yhuang.top/pdf/chi25_Xavier.pdf"
+      }, {
+        name: "Demo",
+        href: "https://www.youtube.com/watch?v=6gVhyZO8ys4"
       }],
       imgsrc: XV,
       authors: ["Yunfan Zhou", "Xiwen Cai", "Qiming Shi", "Yanwei Huang", "Haotian Li", "Huamin Qu", "Di Weng", "Yingcai Wu"],
@@ -230,8 +239,8 @@ const badgeColor = {
             <a-avatar :size="150" :src="me" style="margin-bottom: 10px;"></a-avatar>
             <div class="title is-4" style="font-weight: bold; margin: 0" title="Pronounced as /Ian-Weigh/"> Yanwei Huang
             </div>
-            <div> MSCS Student, ZJU </div>
-            <div> Hangzhou, China </div>
+            <div> Ph.D. Student, HKUST </div>
+            <div> Hong Kong S.A.R., China </div>
             <a-button href="https://github.com/Ais0n" style="border:none">
               <template #icon>
                 <GithubOutlined />
@@ -268,27 +277,13 @@ const badgeColor = {
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
             <p class="paragraph">
-              I am a Master's student in Computer Science at <a href="https://www.zju.edu.cn/english/">Zhejiang
-                University</a>,
-              supervised by <a href="http://www.ycwu.org/">Prof. Yingcai Wu</a>. As a member of <a
-                href="https://zjuidg.org/">ZJUIDG</a>,
-              I am fortunate to work closely with <a href="https://dwe.ng/">Di Weng</a>, <a
-                href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I also
-              work on
-              research projects
-              on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a
-                href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a> in CMU.
-              Prior to this, I obtained my Bachelor's degree in Computer Science from Chu Kochen Honors College,
-              Zhejiang
-              University.
+              I am an incoming Ph.D. student at <a href="https://hkust.edu.hk/">HKUST</a>, working with <a href="https://narechania.com/">Prof. Arpit Narechania</a>. I love designing tools tailored for data
+              practitioners, covering activities such as data wrangling, table construction, and data cleaning. I am
+              also interested in designing interactive tools for sensemaking and auditing of large language models,
+              especially in the context of visualization and data science.
             </p>
             <p class="paragraph">
-              I love designing tools tailored for data
-              practitioners, covering activities such as data wrangling, table construction, and data cleaning. I am
-              also
-              interested in designing interactive tools for sensemaking and auditing of large language models,
-              especially
-              in the context of visualization and data science.
+              Previously, I obtained my Master's and Bachelor's degree in Computer Science from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, where I worked closely with <a href="https://ycwu.org">Yingcai Wu</a>, <a href="https://dwe.ng/">Di Weng</a>, <a href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I was also a visiting scholar of CMU, working on research projects on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>.
             </p>
             <p class="paragraph">
               My CV is available <a href="https://yhuang.top/pdf/yanwei_CV.pdf">here</a>.
@@ -327,8 +322,11 @@ const badgeColor = {
             <br />
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
+              <li><span style="font-weight: bold;">2025.3-,</span> Research Intern @<a
+                  href="https://www.hithink.com/about.html">Hithink Research</a>
+              </li>
               <li><span style="font-weight: bold;">2024.7-2024.12,</span> Visiting Scholar @<a
-                  href="https://dig.cmu.edu/about">CMU DIG</a>
+                  href="https://hcii.cmu.edu/">CMU HCII</a>
                 <ul>
                   <li style="font-size: 13px;">I am happy to work with <a href="https://perer.org/">Prof. Adam
                       Perer</a>, <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>, and many other
@@ -373,14 +371,14 @@ const badgeColor = {
               <li><span style="font-weight: bold;">2024, </span>Student volunteer for UIST'24 </li>
               <li><span style="font-weight: bold;">2024-present, </span>Reviewer for IEEE VIS, IEEE PacificVis Journal
                 Track,
-                ACM CHI, ChinaVis </li>
+                ACM CHI, ChinaVIS </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on May 26, 2025. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on June 5, 2025. </div>
 </template>
 
 <style scoped>
