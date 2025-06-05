@@ -283,7 +283,7 @@ const badgeColor = {
               especially in the context of visualization and data science.
             </p>
             <p class="paragraph">
-              Previously, I obtained my Master's and Bachelor's degree in Computer Science from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, where I worked closely with <a href="https://ycwu.org">Yingcai Wu</a>, <a href="https://dwe.ng/">Di Weng</a>, <a href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I was also a visiting scholar of CMU, working on research projects on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>.
+              Previously, I obtained my Master's and Bachelor's degree in Computer Science from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, where I worked closely with <a href="https://ycwu.org">Yingcai Wu</a>, <a href="https://dwe.ng/">Di Weng</a>, <a href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I was also a visiting scholar of <a href="https://www.cmu.edu/">CMU</a>, working on research projects on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>.
             </p>
             <p class="paragraph">
               My CV is available <a href="https://yhuang.top/pdf/yanwei_CV.pdf">here</a>.
