@@ -10,6 +10,7 @@ import SV from "./assets/StructVizor.png";
 import VP from "./assets/vipera.png";
 import RB from "./assets/ridgebuilder.png";
 import XV from "./assets/xavier.png";
+import PC from "./assets/puzzleclone.png";
 import {
   GithubOutlined,
   TwitterOutlined,
@@ -28,6 +29,24 @@ const publications = ref({
   //   note: "test",
   // }],
   "2025": [
+    {
+      title: "PuzzleClone: An SMT-Powered Framework for Synthesizing Verifiable Data",
+      links: [{
+        name: "Paper",
+        href: "https://arxiv.org/abs/2508.15180"
+      }, {
+        name: "PDF",
+        href: "https://yhuang.top/pdf/puzzleClone_preprint.pdf"
+      }, {
+        name: "GitHub",
+        href: "https://github.com/HiThink-Research/PuzzleClone"
+      }],
+      imgsrc: PC,
+      authors: ["Kai Xiong*", "Yanwei Huang*", "Rongjunchen Zhang", "Kun Chen", "Haipang Wu"],
+      venue: "arXiv",
+      venue_full: "arXiv preprint",
+      note: "* Equal contribution",
+    },
     {
       title: "Vipera: Towards systematic auditing of generative text-to-image models at scale",
       links: [{
@@ -192,6 +211,10 @@ const _years = Object.keys(publications.value).sort(function (a, b) {
 });
 const news = [
 {
+  msg: "Happy to start my Ph.D. journey at HKUST, working with Prof. Arpit Narechania!",
+  time: "Aug 2025",
+},
+{
   msg: "The Vipera system is now publicly available.",
   time: "May 2025",
 }, {
@@ -224,7 +247,8 @@ const badgeColor = {
   "ACM CHI": '#018571',
   "IEEE TVCG": '#006400',
   "IEEE VIS": '#108ee9',
-  "ICSE": '#756bb1'
+  "ICSE": '#756bb1',
+  "arXiv": '#4c72b0',
 }
 </script>
 
@@ -251,7 +275,7 @@ const badgeColor = {
                 <TwitterOutlined />
               </template>
             </a-button>
-            <a-button href="mailto:huangyw@zju.edu.cn" style="border:none">
+            <a-button href="mailto:yanwei.huang AT connect AT ust AT hk" style="border:none">
               <template #icon>
                 <MailOutlined />
               </template>
@@ -289,7 +313,10 @@ const badgeColor = {
               My CV is available <a href="https://yhuang.top/pdf/yanwei_CV.pdf">here</a>.
             </p>
             <br />
-            <div class="title is-3">Research</div>
+            <div class="title is-3">
+              Research
+              <span style="font-size: 0.4em;">(*: equal contribution)</span>
+            </div>
             <div v-for="(year, _i) in _years">
               <div class="title is-4" style="margin-top: 15px"> {{ year }} </div>
               <div v-for="(item, index) in publications[year]" class="articleItem">
@@ -304,7 +331,7 @@ const badgeColor = {
                   <div class="title is-5" style="font-weight: bold;"> {{ item.title }} </div>
                   <div>
                     <span v-for="(author, i) in item.authors"
-                      :class="{ 'authorHighlighted': author == 'Yanwei Huang' }"> {{
+                      :class="{ 'authorHighlighted': author.startsWith('Yanwei Huang') }"> {{
                         i
                           != item.authors.length - 1 ? author + ', ' : 'and ' + author }} </span>
                   </div>
@@ -322,7 +349,7 @@ const badgeColor = {
             <br />
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
-              <li><span style="font-weight: bold;">2025.3-,</span> Research Intern @<a
+              <li><span style="font-weight: bold;">2025.3-2025.8,</span> Research Intern @<a
                   href="https://www.hithink.com/about.html">Hithink Research</a>
               </li>
               <li><span style="font-weight: bold;">2024.7-2024.12,</span> Visiting Scholar @<a
