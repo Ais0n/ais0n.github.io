@@ -215,8 +215,8 @@ const news = [
   time: "Aug 2025",
 },
 {
-  msg: "The Vipera system is now publicly available.",
-  time: "May 2025",
+  msg: "I received the Master's degree in Computer Science from ZJU. Many thanks to my advisors Prof. Yingcai Wu and Prof. Di Weng for their great support and guidance!",
+  time: "Mar 2025",
 }, {
   msg: "I'll present StructVizor in CHI'25 at Yokohama on April 29, 2025.",
   time: "Mar 2025",
@@ -301,10 +301,7 @@ const badgeColor = {
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
             <p class="paragraph">
-              I am an incoming Ph.D. student at <a href="https://hkust.edu.hk/">HKUST</a>, working with <a href="https://narechania.com/">Prof. Arpit Narechania</a>. I love designing tools tailored for data
-              practitioners, covering activities such as data wrangling, table construction, and data cleaning. I am
-              also interested in designing interactive tools for sensemaking and auditing of large language models,
-              especially in the context of visualization and data science.
+              I am a Ph.D. student at <a href="https://hkust.edu.hk/">HKUST</a>, working with <a href="https://narechania.com/">Prof. Arpit Narechania</a>. My research explores the intersection of AI, HCI, and Data Science, with a focus on designing benchmarks and interactive systems that facilitate effective collaboration between humans and AI—especially large language models and agentic systems. I also design applied tools for data practitioners, targeting activities such as data wrangling, table creation, and data cleaning.
             </p>
             <p class="paragraph">
               Previously, I obtained my Master's and Bachelor's degree in Computer Science from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, where I worked closely with <a href="https://ycwu.org">Yingcai Wu</a>, <a href="https://dwe.ng/">Di Weng</a>, <a href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I was also a visiting scholar of <a href="https://www.cmu.edu/">CMU</a>, working on research projects on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a> and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>.
@@ -396,7 +393,7 @@ const badgeColor = {
             <div class="title is-3">Services</div>
             <ul style="line-height: 1.5em">
               <li><span style="font-weight: bold;">2024, </span>Student volunteer for UIST'24 </li>
-              <li><span style="font-weight: bold;">2024-present, </span>Reviewer for IEEE VIS, IEEE PacificVis Journal
+              <li><span style="font-weight: bold;">2024-present, </span>Reviewer for AAAI, IEEE VIS, IEEE PacificVis Journal
                 Track,
                 ACM CHI, ChinaVIS </li>
             </ul>
@@ -405,7 +402,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on June 5, 2025. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Sept 20, 2025. </div>
 </template>
 
 <style scoped>
