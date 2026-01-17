@@ -3,14 +3,18 @@
 import "./column.css";
 import me from "./assets/atchi.jpg";
 import Rigel from "./assets/Rigel.jpg";
-import NL2Rigel from "./assets/NL2Rigel.jpg";
+import NL2Rigel from "./assets/NL2Rigel.png";
 import Havoc from "./assets/havoc.png";
 import TI from "./assets/TI.png";
 import SV from "./assets/StructVizor.png";
 import VP from "./assets/vipera.png";
+// import VP2 from "./assets/vipera2.png";
 import RB from "./assets/ridgebuilder.png";
 import XV from "./assets/xavier.png";
 import PC from "./assets/puzzleclone.png";
+import KV from "./assets/keditvis.png";
+import WS from "./assets/webseek.png";
+import CE from "./assets/cerebra.png";
 import {
   GithubOutlined,
   TwitterOutlined,
@@ -28,6 +32,44 @@ const publications = ref({
   //   venue_full: "CHI Late-Breaking Work 2025 (Under Review)",
   //   note: "test",
   // }],
+  "2026": [
+    {
+      "title": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek",
+      "links": [],
+      imgsrc: WS,
+      authors: ["Yanwei Huang", "Arpit Narechania"],
+      venue: "ACM CHI",
+      venue_full: "CHI 2026",
+      note: "to appear",
+    },
+    {
+      "title": "Vipera: Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI",
+      "links": [],
+      imgsrc: VP,
+      authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason I. Hong", "Arpit Narechania", "Adam Perer"],
+      venue: "ACM CHI",
+      venue_full: "CHI 2026",
+      note: "to appear",
+    },
+    {
+      "title": "Cerebra: Aligning Implicit Knowledge in Interactive SQL Authoring",
+      "links": [],
+      imgsrc: CE,
+      authors: ["Yunfan Zhou", "Qiming Shi", "Zhongsu Luo", "Xiwen Cai", "Yanwei Huang", "Dae Hyun Kim", "Di Weng", "Yingcai Wu"],
+      venue: "ACM CHI",
+      venue_full: "CHI 2026",
+      note: "to appear",
+    },
+    {
+      "title": "KEditVis: A Visual Analytics System for Knowledge Editing of Large Language Models",
+      "links": [],
+      imgsrc: KV,
+      authors: ["Zhenning Chen", "Hanbei Zhan", "Yanwei Huang", "Xin Wu", "Dazhen Deng", "Di Weng", "Yingcai Wu"],
+      venue: "PacificVis",
+      venue_full: "PacificVis 2026 (IEEE TVCG Journal Track)",
+      note: "test",
+    },
+  ],
   "2025": [
     {
       title: "PuzzleClone: An SMT-Powered Framework for Synthesizing Verifiable Data",
@@ -44,7 +86,7 @@ const publications = ref({
       imgsrc: PC,
       authors: ["Kai Xiong*", "Yanwei Huang*", "Rongjunchen Zhang", "Kun Chen", "Haipang Wu"],
       venue: "arXiv",
-      venue_full: "arXiv preprint",
+      venue_full: "ArXiv Preprint",
       note: "* Equal contribution",
     },
     {
@@ -56,7 +98,7 @@ const publications = ref({
         name: "PDF",
         href: "https://yhuang.top/pdf/chi25_Vipera.pdf"
       }, {
-        name: "Demo",
+        name: "Video",
         href: "https://www.youtube.com/watch?v=TeteImSceMU"
       }, {
         name: "Poster",
@@ -66,7 +108,7 @@ const publications = ref({
         href: "https://vipera-latest.vercel.app/decoupled"
       }],
       imgsrc: VP,
-      authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason Hong", "Adam Perer"],
+      authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason I. Hong", "Adam Perer"],
       venue: "ACM CHI",
       venue_full: "CHI Late-Breaking Work 2025",
       note: "test",
@@ -80,7 +122,7 @@ const publications = ref({
         name: "PDF",
         href: "https://yhuang.top/pdf/chi25_Structvizor.pdf"
       }, {
-        name: "Demo",
+        name: "Video",
         href: "https://www.youtube.com/watch?v=f5iUhyCGEvs"
       }],
       imgsrc: SV,
@@ -95,7 +137,7 @@ const publications = ref({
         "name": "Paper",
         "href": "https://dl.acm.org/doi/10.1145/3706598.3714209"
       }, {
-        "name": "Demo",
+        "name": "Video",
         "href": "https://www.youtube.com/watch?v=_HfTTutGDkU"
       }],
       imgsrc: RB,
@@ -144,7 +186,7 @@ const publications = ref({
     imgsrc: TI,
     authors: ["Yanwei Huang", "Yurun Yang", "Xinhuan Shu", "Ran Chen", "Di Weng", "Yingcai Wu"],
     venue: "ACM CHI",
-    venue_full: "CHI 2024 - Honolulu, HI, USA",
+    venue_full: "CHI 2024",
     note: "test",
   }],
   "2023": [{
@@ -186,7 +228,7 @@ const publications = ref({
     imgsrc: Rigel,
     authors: ["Ran Chen", "Di Weng", "Yanwei Huang", "Xinhuan Shu", "Jiayi Zhou", "Guodao Sun", " Yingcai Wu"],
     venue: "IEEE VIS",
-    venue_full: "IEEE VIS 2022 - Oklahoma City, OK, USA",
+    venue_full: "IEEE VIS 2022",
     note: "test",
   }, {
     title: "One Fuzzing Strategy to Rule Them All",
@@ -200,7 +242,7 @@ const publications = ref({
     imgsrc: Havoc,
     authors: ["Mingyuan Wu", "Ling Jiang", "Jiahong Xiang", "Yanwei Huang", "Heming Cui", "Lingming Zhang", "Yuqun Zhang"],
     venue: "ICSE",
-    venue_full: "ICSE 2022 - Pittsburgh, PA, USA",
+    venue_full: "ICSE 2022",
   }]
 });
 const _years = Object.keys(publications.value).sort(function (a, b) {
@@ -210,6 +252,10 @@ const _years = Object.keys(publications.value).sort(function (a, b) {
   return b - a;
 });
 const news = [
+{
+  msg: "Three papers, WebSeek, Vipera, and Cerebra, are accepted by ACM CHI 2026!",
+  time: "Jan 2026",
+},
 {
   msg: "Happy to start my Ph.D. journey at HKUST, working with Prof. Arpit Narechania!",
   time: "Aug 2025",
@@ -248,6 +294,7 @@ const badgeColor = {
   "IEEE TVCG": '#006400',
   "IEEE VIS": '#108ee9',
   "ICSE": '#756bb1',
+  "PacificVis": '#76153c',
   "arXiv": '#4c72b0',
 }
 </script>
@@ -326,11 +373,10 @@ const badgeColor = {
                 </div>
                 <div class="articleDescription">
                   <div class="title is-5" style="font-weight: bold;"> {{ item.title }} </div>
-                  <div>
+                  <div style="margin-bottom: 3px">
                     <span v-for="(author, i) in item.authors"
                       :class="{ 'authorHighlighted': author.startsWith('Yanwei Huang') }"> {{
-                        i
-                          != item.authors.length - 1 ? author + ', ' : 'and ' + author }} </span>
+                        i != 0 ? ', ' + author: author }} </span>
                   </div>
                   <div style="font-style: italic;">
                     <span> {{ item.venue_full }} </span>
@@ -347,7 +393,7 @@ const badgeColor = {
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
               <li><span style="font-weight: bold;">2025.3-2025.8,</span> Research Intern @<a
-                  href="https://www.hithink.com/about.html">Hithink Research</a>
+                  href="https://www.hithink.com/about.html">HiThink Research</a>
               </li>
               <li><span style="font-weight: bold;">2024.7-2024.12,</span> Visiting Scholar @<a
                   href="https://hcii.cmu.edu/">CMU HCII</a>
@@ -402,7 +448,7 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Sept 20, 2025. </div>
+  <div class="footer">Copyright @Yanwei Huang. Last updated on Jan 17, 2026. </div>
 </template>
 
 <style scoped>
@@ -442,12 +488,12 @@ const badgeColor = {
 }
 
 .title {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .articleItem {
   display: flex;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .articleImgContainer {
