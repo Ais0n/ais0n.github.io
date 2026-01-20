@@ -90,7 +90,7 @@ const publications = ref({
       note: "* Equal contribution",
     },
     {
-      title: "Vipera: Towards systematic auditing of generative text-to-image models at scale",
+      title: "Vipera: Towards Systematic Auditing of Generative Text-to-Image Models at Scale",
       links: [{
         name: "Paper",
         href: "https://dl.acm.org/doi/10.1145/3706599.3719757"
@@ -114,7 +114,7 @@ const publications = ref({
       note: "test",
     },
     {
-      title: "StructVizor: Interactive profiling of semi-structured textual data",
+      title: "StructVizor: Interactive Profiling of Semi-Structured Textual Data",
       links: [{
         name: "Paper",
         href: "https://dl.acm.org/doi/10.1145/3706598.3713484"
@@ -166,7 +166,7 @@ const publications = ref({
     }
   ],
   "2024": [{
-    title: "Table Illustrator: Puzzle-based interactive authoring of plain tables",
+    title: "Table Illustrator: Puzzle-Based Interactive Authoring of Plain Tables",
     links: [{
       name: "Paper",
       href: "https://dl.acm.org/doi/10.1145/3613904.3642415"
