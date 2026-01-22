@@ -35,7 +35,10 @@ const publications = ref({
   "2026": [
     {
       "title": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek",
-      "links": [],
+      "links": [{
+        name: "Paper",
+        href: "https://arxiv.org/abs/2601.15100"
+      }],
       imgsrc: WS,
       authors: ["Yanwei Huang", "Arpit Narechania"],
       venue: "ACM CHI",
