@@ -140,11 +140,20 @@ const publications = ref({
     {
       title: "RidgeBuilder: Interactive Authoring of Expressive Ridgeline Plots",
       links: [{
-        "name": "Paper",
-        "href": "https://dl.acm.org/doi/10.1145/3706598.3714209"
+        name: "Paper",
+        href: "https://dl.acm.org/doi/10.1145/3706598.3714209"
       }, {
-        "name": "Video",
-        "href": "https://www.youtube.com/watch?v=_HfTTutGDkU"
+        name: "PDF",
+        href: "https://yhuang.top/pdf/chi25_Ridgebuilder.pdf"
+      }, {
+        name: "GitHub",
+        href: "https://github.com/RidgeBuilder/RidgeBuilder"
+      }, {
+        name: "Video",
+        href: "https://www.youtube.com/watch?v=_HfTTutGDkU"
+      }, {
+        name: "System",
+        href: "https://ridgebuilder.github.io/RidgeBuilder/",
       }],
       imgsrc: RB,
       authors: ["Shuhan Liu", "Yangtian Liu", "Junxin Li", "Yanwei Huang", "Yue Shangguan", "Zikun Deng", "Di Weng", "Yingcai Wu"],
@@ -161,7 +170,10 @@ const publications = ref({
         name: "PDF",
         href: "https://yhuang.top/pdf/chi25_Xavier.pdf"
       }, {
-        name: "Demo",
+        name: "GitHub",
+        href: "https://github.com/CHI25-Xavier/Xavier"
+      }, {
+        name: "Video",
         href: "https://www.youtube.com/watch?v=6gVhyZO8ys4"
       }],
       imgsrc: XV,
