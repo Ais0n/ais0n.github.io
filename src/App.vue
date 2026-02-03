@@ -47,7 +47,10 @@ const publications = ref({
     },
     {
       "title": "Vipera: Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI",
-      "links": [],
+      "links": [{
+        name: "Paper",
+        href: "https://arxiv.org/abs/2510.05742"
+      }],
       imgsrc: VP,
       authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason I. Hong", "Arpit Narechania", "Adam Perer"],
       venue: "ACM CHI",
