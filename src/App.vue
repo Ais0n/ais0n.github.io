@@ -466,7 +466,10 @@ const badgeColor = {
       </div>
     </div>
   </div>
-  <div class="footer">Copyright @Yanwei Huang. Last updated on Jan 17, 2026. </div>
+  <div class="footer">
+    Copyright @Yanwei Huang. Last updated on Jan 17, 2026.
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=ais0n.homepage" alt="visitor badge" style="width: 0; height: 0;"/>
+  </div>
 </template>
 
 <style scoped>
