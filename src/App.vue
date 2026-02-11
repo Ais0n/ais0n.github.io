@@ -68,7 +68,10 @@ const publications = ref({
     },
     {
       "title": "KEditVis: A Visual Analytics System for Knowledge Editing of Large Language Models",
-      "links": [],
+      "links": [{
+        name: "PDF",
+        href: "https://yhuang.top/pdf/visualke.pdf"
+      }],
       imgsrc: KV,
       authors: ["Zhenning Chen", "Hanbei Zhan", "Yanwei Huang", "Xin Wu", "Dazhen Deng", "Di Weng", "Yingcai Wu"],
       venue: "PacificVis",
@@ -437,6 +440,7 @@ const badgeColor = {
             <br />
             <div class="title is-3">Awards</div>
             <ul style="line-height: 1.5em">
+              <li><span style="font-weight: bold;">2025,</span> Outstanding Reviewer of CHI 2025 and CHI 2026 </li>
               <li><span style="font-weight: bold;">2024,</span> National Scholarship </li>
               <li><span style="font-weight: bold;">2023-2024,</span> Outstanding Graduate Student of ZJU (Top 10%) </li>
               <li><span style="font-weight: bold;">2022,</span> Yongping Scholarship (ZJU, Top 1%) </li>
@@ -447,6 +451,7 @@ const badgeColor = {
             <br />
             <div class="title is-3">Teaching</div>
             <ul style="line-height: 1.5em">
+              <li><span style="font-weight: bold;">Spring 2026,</span> "Introduction to Python Programming", teaching assistant (~1000 students) </li>
               <li><span style="font-weight: bold;">Fall 2023,</span> "C Programming", provided guidance on lab projects
                 (~120
                 students) </li>
@@ -456,10 +461,10 @@ const badgeColor = {
             <br />
             <div class="title is-3">Services</div>
             <ul style="line-height: 1.5em">
-              <li><span style="font-weight: bold;">2024, </span>Student volunteer for UIST'24 </li>
               <li><span style="font-weight: bold;">2024-present, </span>Reviewer for AAAI, IEEE VIS, IEEE PacificVis Journal
                 Track,
-                ACM CHI, ChinaVIS </li>
+                ACM CHI, ACM DIS, ChinaVIS </li>
+              <li><span style="font-weight: bold;">2024, </span>Student volunteer for UIST'24 </li>
             </ul>
           </div>
         </div>
