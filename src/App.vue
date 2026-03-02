@@ -91,6 +91,18 @@ const publications = ref({
       }, {
         name: "GitHub",
         href: "https://github.com/HiThink-Research/PuzzleClone"
+      }, {
+        name: "Benchmark",
+        href: "https://github.com/puzzleClone/PuzzleCloneData/"
+      }, {
+        name: "Tutorial",
+        href: "https://puzzleclone.github.io/PuzzleClone/tutorial/"
+      }, {
+        name: "API Docs",
+        href: "https://puzzleclone.github.io/PuzzleClone/api/index.html"
+      }, {
+        name: "Evaluation Toolkit",
+        href: "https://github.com/puzzleclone/PolyhedronEvaluator"
       }],
       imgsrc: PC,
       authors: ["Kai Xiong*", "Yanwei Huang*", "Rongjunchen Zhang", "Kun Chen", "Haipang Wu"],
@@ -369,7 +381,7 @@ const badgeColor = {
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
             <p class="paragraph">
-              I am a Ph.D. student at <a href="https://hkust.edu.hk/">HKUST</a>, working with <a href="https://narechania.com/">Prof. Arpit Narechania</a>. My research explores the intersection of AI, HCI, and Data Science, with a focus on designing benchmarks and interactive systems that facilitate effective collaboration between humans and AI—especially large language models and agentic systems. I also design applied tools for data practitioners, targeting activities such as data wrangling, table creation, and data cleaning.
+              I am a Ph.D. student at <a href="https://hkust.edu.hk/">HKUST</a>, working with <a href="https://narechania.com/">Prof. Arpit Narechania</a>. My research explores the intersection of AI, HCI, and Data Science, with a focus on designing algorithms, benchmarks, and interactive systems that enhances agentic AI and human-AI collaboration. I also design applied tools for data practitioners, targeting activities such as data wrangling, table creation, and data cleaning.
             </p>
             <p class="paragraph">
               Previously, I obtained my Master's and Bachelor's degree in Computer Science from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, where I worked closely with <a href="https://ycwu.org">Yingcai Wu</a>, <a href="https://dwe.ng/">Di Weng</a>, <a href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I was also a visiting scholar of <a href="https://www.cmu.edu/">CMU</a>, working on research projects on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a>, <a href="https://www.motahhare.com/">Prof. Motahhare Eslami</a>, and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>.
