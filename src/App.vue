@@ -68,6 +68,9 @@ const publications = ref({
       "links": [{
         name: "Paper",
         href: "https://arxiv.org/abs/2601.15100"
+      }, {
+        name: "Video",
+        href: "https://youtu.be/5ek7epCwbBc"
       }],
       imgsrc: WS,
       authors: ["Yanwei Huang", "Arpit Narechania"],
