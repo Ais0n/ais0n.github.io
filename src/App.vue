@@ -34,6 +34,36 @@ const publications = ref({
   // }],
   "2026": [
     {
+      title: "PuzzleClone: An SMT-Powered Framework for Synthesizing Verifiable Data",
+      links: [{
+        name: "Paper",
+        href: "https://arxiv.org/abs/2508.15180"
+      }, {
+        name: "PDF",
+        href: "https://yhuang.top/pdf/puzzleClone_preprint.pdf"
+      }, {
+        name: "GitHub",
+        href: "https://github.com/HiThink-Research/PuzzleClone"
+      }, {
+        name: "Benchmark",
+        href: "https://github.com/puzzleClone/PuzzleCloneData/"
+      }, {
+        name: "Tutorial",
+        href: "https://puzzleclone.github.io/PuzzleClone/tutorial/"
+      }, {
+        name: "API Docs",
+        href: "https://puzzleclone.github.io/PuzzleClone/api/index.html"
+      }, {
+        name: "Evaluation Toolkit",
+        href: "https://github.com/puzzleclone/PolyhedronEvaluator"
+      }],
+      imgsrc: PC,
+      authors: ["Kai Xiong*", "Yanwei Huang*", "Rongjunchen Zhang", "Kun Chen", "Haipang Wu"],
+      venue: "ACL",
+      venue_full: "ACL 2026 (Accepted)",
+      note: "* Equal contribution",
+    },
+    {
       "title": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek",
       "links": [{
         name: "Paper",
@@ -80,36 +110,6 @@ const publications = ref({
     },
   ],
   "2025": [
-    {
-      title: "PuzzleClone: An SMT-Powered Framework for Synthesizing Verifiable Data",
-      links: [{
-        name: "Paper",
-        href: "https://arxiv.org/abs/2508.15180"
-      }, {
-        name: "PDF",
-        href: "https://yhuang.top/pdf/puzzleClone_preprint.pdf"
-      }, {
-        name: "GitHub",
-        href: "https://github.com/HiThink-Research/PuzzleClone"
-      }, {
-        name: "Benchmark",
-        href: "https://github.com/puzzleClone/PuzzleCloneData/"
-      }, {
-        name: "Tutorial",
-        href: "https://puzzleclone.github.io/PuzzleClone/tutorial/"
-      }, {
-        name: "API Docs",
-        href: "https://puzzleclone.github.io/PuzzleClone/api/index.html"
-      }, {
-        name: "Evaluation Toolkit",
-        href: "https://github.com/puzzleclone/PolyhedronEvaluator"
-      }],
-      imgsrc: PC,
-      authors: ["Kai Xiong*", "Yanwei Huang*", "Rongjunchen Zhang", "Kun Chen", "Haipang Wu"],
-      venue: "arXiv",
-      venue_full: "ArXiv Preprint",
-      note: "* Equal contribution",
-    },
     {
       title: "Vipera: Towards Systematic Auditing of Generative Text-to-Image Models at Scale",
       links: [{
@@ -286,6 +286,10 @@ const _years = Object.keys(publications.value).sort(function (a, b) {
 });
 const news = [
 {
+  msg: "Our paper PuzzleClone is accepted by ACL 2026!",
+  time: "Mar 2026",
+},
+{
   msg: "Three papers, WebSeek, Vipera, and Cerebra, are accepted by ACM CHI 2026!",
   time: "Jan 2026",
 },
@@ -328,7 +332,7 @@ const badgeColor = {
   "IEEE VIS": '#108ee9',
   "ICSE": '#756bb1',
   "PacificVis": '#76153c',
-  "arXiv": '#4c72b0',
+  "ACL": '#4c72b0',
 }
 </script>
 
