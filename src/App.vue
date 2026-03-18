@@ -69,6 +69,9 @@ const publications = ref({
         name: "Paper",
         href: "https://arxiv.org/abs/2601.15100"
       }, {
+        name: "GitHub",
+        href: "https://github.com/datavisards/WebSeek"
+      }, {
         name: "Video",
         href: "https://youtu.be/5ek7epCwbBc"
       }],
@@ -287,7 +290,10 @@ const _years = Object.keys(publications.value).sort(function (a, b) {
   }
   return b - a;
 });
-const news = [
+const news = [{
+  msg: "I will be presenting WebSeek on GBA Pre-CHI 2026 @Shenzhen on Mar 22. Both WebSeek and PuzzleClone will be presented in CHI 2026 @Barcelona on April 16-17.",
+  time: "Mar 2026",
+},
 {
   msg: "Our paper PuzzleClone is accepted by ACL 2026!",
   time: "Mar 2026",
@@ -491,7 +497,7 @@ const badgeColor = {
     </div>
   </div>
   <div class="footer">
-    Copyright @Yanwei Huang. Last updated on Jan 17, 2026.
+    Copyright @Yanwei Huang. Last updated on Mar 18, 2026.
     <img src="https://visitor-badge.laobi.icu/badge?page_id=ais0n.homepage" alt="visitor badge" style="width: 0; height: 0;"/>
   </div>
 </template>
