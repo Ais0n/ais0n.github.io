@@ -95,7 +95,10 @@ const publications = ref({
     },
     {
       "title": "Cerebra: Aligning Implicit Knowledge in Interactive SQL Authoring",
-      "links": [],
+      "links": [{
+        name: "Paper",
+        href: "https://arxiv.org/abs/2603.21363"
+      }],
       imgsrc: CE,
       authors: ["Yunfan Zhou", "Qiming Shi", "Zhongsu Luo", "Xiwen Cai", "Yanwei Huang", "Dae Hyun Kim", "Di Weng", "Yingcai Wu"],
       venue: "ACM CHI",
