@@ -98,6 +98,9 @@ const publications = ref({
       "links": [{
         name: "Paper",
         href: "https://arxiv.org/abs/2603.21363"
+      }, {
+        name: "GitHub",
+        href: "https://github.com/zjuidg/CHI26-Cerebra"
       }],
       imgsrc: CE,
       authors: ["Yunfan Zhou", "Qiming Shi", "Zhongsu Luo", "Xiwen Cai", "Yanwei Huang", "Dae Hyun Kim", "Di Weng", "Yingcai Wu"],
@@ -294,7 +297,7 @@ const _years = Object.keys(publications.value).sort(function (a, b) {
   return b - a;
 });
 const news = [{
-  msg: "I will be presenting WebSeek on GBA Pre-CHI 2026 @Shenzhen on Mar 22. Both WebSeek and PuzzleClone will be presented in CHI 2026 @Barcelona on April 16-17.",
+  msg: "I will be presenting WebSeek at GBA Pre-CHI 2026 @Shenzhen on Mar 21. Both WebSeek and PuzzleClone will be presented at CHI 2026 @Barcelona on April 16-17.",
   time: "Mar 2026",
 },
 {
@@ -397,7 +400,7 @@ const badgeColor = {
           <div class="card" style="text-align: left;">
             <div class="title is-3">About Me</div>
             <p class="paragraph">
-              I am a Ph.D. student at <a href="https://hkust.edu.hk/">HKUST</a>, working with <a href="https://narechania.com/">Prof. Arpit Narechania</a>. My research explores the intersection of AI, HCI, and Data Science, with a focus on designing algorithms, benchmarks, and interactive systems that enhances agentic AI and human-AI collaboration. I also design applied tools for data practitioners, targeting activities such as data wrangling, table creation, and data cleaning.
+              I am a Ph.D. student at <a href="https://hkust.edu.hk/">HKUST</a>, working with <a href="https://narechania.com/">Prof. Arpit Narechania</a>. My research broadly focuses on the design, optimization, and application of agentic AI systems. I also love exploring the intersection of AI, HCI, and Data Science, with a focus on designing algorithms, benchmarks, and interactive systems that enhances human-AI collaboration.
             </p>
             <p class="paragraph">
               Previously, I obtained my Master's and Bachelor's degree in Computer Science from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>, where I worked closely with <a href="https://ycwu.org">Yingcai Wu</a>, <a href="https://dwe.ng/">Di Weng</a>, <a href="https://shuxinhuan.github.io/#about">Xinhuan Shu</a>, and other exceptional colleagues. I was also a visiting scholar of <a href="https://www.cmu.edu/">CMU</a>, working on research projects on visual auditing of generative models with <a href="https://perer.org">Prof. Adam Perer</a>, <a href="https://www.motahhare.com/">Prof. Motahhare Eslami</a>, and <a href="https://www.cs.cmu.edu/~jasonh/">Prof. Jason Hong</a>.
@@ -441,6 +444,9 @@ const badgeColor = {
             <br />
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
+              <li><span style="font-weight: bold;">2026-present,</span> Research Intern @<a
+                  href="https://klingai.com/">Kling AI</a>
+              </li>
               <li><span style="font-weight: bold;">2025.3-2025.8,</span> Research Intern @<a
                   href="https://www.hithink.com/about.html">HiThink Research</a>
               </li>
@@ -483,7 +489,7 @@ const badgeColor = {
               <li><span style="font-weight: bold;">Fall 2023,</span> "C Programming", provided guidance on lab projects
                 (~120
                 students) </li>
-              <li><span style="font-weight: bold;">Fall 2022 - Spring 2024,</span> "Seminars for Mixed-class Students",
+              <li><span style="font-weight: bold;">Fall 2022-Spring 2024,</span> "Seminars for Mixed-class Students",
                 organized bi-weekly academic seminars (~600 students) </li>
             </ul>
             <br />
@@ -500,7 +506,7 @@ const badgeColor = {
     </div>
   </div>
   <div class="footer">
-    Copyright @Yanwei Huang. Last updated on Mar 18, 2026.
+    Copyright @Yanwei Huang. Last updated on Apr 2, 2026.
     <img src="https://visitor-badge.laobi.icu/badge?page_id=ais0n.homepage" alt="visitor badge" style="width: 0; height: 0;"/>
   </div>
 </template>
