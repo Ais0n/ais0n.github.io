@@ -445,7 +445,7 @@ const badgeColor = {
             <div class="title is-3">Interns</div>
             <ul style="line-height: 1.5em">
               <li><span style="font-weight: bold;">2026-present,</span> Research Intern @<a
-                  href="https://klingai.com/">Kling AI</a>
+                  href="https://kling.ai/">Kling AI</a>
               </li>
               <li><span style="font-weight: bold;">2025.3-2025.8,</span> Research Intern @<a
                   href="https://www.hithink.com/about.html">HiThink Research</a>
