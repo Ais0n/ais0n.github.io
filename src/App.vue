@@ -60,7 +60,7 @@ const publications = ref({
       imgsrc: PC,
       authors: ["Kai Xiong*", "Yanwei Huang*", "Rongjunchen Zhang", "Kun Chen", "Haipang Wu"],
       venue: "ACL",
-      venue_full: "ACL 2026 (Accepted)",
+      venue_full: "ACL 2026 Findings",
       note: "* Equal contribution",
     },
     {
@@ -74,6 +74,9 @@ const publications = ref({
       }, {
         name: "Video",
         href: "https://youtu.be/5ek7epCwbBc"
+      }, {
+        name: "System",
+        href: "https://chromewebstore.google.com/detail/webseek/bmmfomheomfealmdjhobphnobadlgdga?hl=en-US&utm_source=ext_sidebar"
       }],
       imgsrc: WS,
       authors: ["Yanwei Huang", "Arpit Narechania"],
@@ -86,6 +89,15 @@ const publications = ref({
       "links": [{
         name: "Paper",
         href: "https://arxiv.org/abs/2510.05742"
+      }, {
+        name: "GitHub",
+        href: "https://github.com/Ais0n/Vipera"
+      }, {
+        name: "Video",
+        href: "https://youtu.be/eNQZEP3psXs"
+      }, {
+        name: "System",
+        href: "http://191host013.mobilenet.cse.ust.hk/vipera/"
       }],
       imgsrc: VP,
       authors: ["Yanwei Huang", "Wesley Hanwen Deng", "Sijia Xiao", "Motahhare Eslami", "Jason I. Hong", "Arpit Narechania", "Adam Perer"],
@@ -506,7 +518,7 @@ const badgeColor = {
     </div>
   </div>
   <div class="footer">
-    Copyright @Yanwei Huang. Last updated on Apr 2, 2026.
+    Copyright @Yanwei Huang. Last updated on Apr 7, 2026.
     <img src="https://visitor-badge.laobi.icu/badge?page_id=ais0n.homepage" alt="visitor badge" style="width: 0; height: 0;"/>
   </div>
 </template>
