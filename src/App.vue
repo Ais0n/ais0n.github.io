@@ -67,7 +67,7 @@ const publications = ref({
       "title": "Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek",
       "links": [{
         name: "Paper",
-        href: "https://arxiv.org/abs/2601.15100"
+        href: "https://doi.org/10.1145/3772318.3791945"
       }, {
         name: "GitHub",
         href: "https://github.com/datavisards/WebSeek"
@@ -88,7 +88,7 @@ const publications = ref({
       "title": "Vipera: Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI",
       "links": [{
         name: "Paper",
-        href: "https://arxiv.org/abs/2510.05742"
+        href: "https://doi.org/10.1145/3772318.3791942"
       }, {
         name: "GitHub",
         href: "https://github.com/Ais0n/Vipera"
@@ -109,7 +109,7 @@ const publications = ref({
       "title": "Cerebra: Aligning Implicit Knowledge in Interactive SQL Authoring",
       "links": [{
         name: "Paper",
-        href: "https://arxiv.org/abs/2603.21363"
+        href: "https://dl.acm.org/doi/10.1145/3772318.3790974"
       }, {
         name: "GitHub",
         href: "https://github.com/zjuidg/CHI26-Cerebra"
@@ -125,6 +125,9 @@ const publications = ref({
       "links": [{
         name: "PDF",
         href: "https://yhuang.top/pdf/visualke.pdf"
+      }, {
+        name: "Appendix",
+        href: "https://dwe.ng/pdf/keditvis_appendix.pdf"
       }],
       imgsrc: KV,
       authors: ["Zhenning Chen", "Hanbei Zhan", "Yanwei Huang", "Xin Wu", "Dazhen Deng", "Di Weng", "Yingcai Wu"],
