@@ -48,8 +48,8 @@ const publications = ref({
         name: "Benchmark",
         href: "https://github.com/puzzleClone/PuzzleCloneData/"
       }, {
-        name: "Tutorial",
-        href: "https://puzzleclone.github.io/PuzzleClone/tutorial/"
+        name: "HuggingFace",
+        href: "https://huggingface.co/datasets/hithink-ai/PuzzleClone"
       }, {
         name: "API Docs",
         href: "https://puzzleclone.github.io/PuzzleClone/api/index.html"
