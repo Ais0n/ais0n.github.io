@@ -53,13 +53,13 @@ const publications = ref({
       note: "test",
     },
     {
-      title: "PuzzleClone: An SMT-Powered Framework for Synthesizing Verifiable Data",
+      title: "PuzzleClone: A DSL-Powered Framework for Synthesizing Verifiable Data",
       links: [{
         name: "Paper",
-        href: "https://arxiv.org/abs/2508.15180"
+        href: "https://aclanthology.org/2026.findings-acl.1669/"
       }, {
-        name: "PDF",
-        href: "https://yhuang.top/pdf/puzzleClone_preprint.pdf"
+        name: "Project Page",
+        href: "https://puzzleclone.github.io/PuzzleClone/tutorial/"
       }, {
         name: "GitHub",
         href: "https://github.com/HiThink-Research/PuzzleClone"
@@ -541,6 +541,7 @@ const badgeColor = {
   </div>
   <div class="footer">
     Copyright @Yanwei Huang. Last updated on Sep 29, 2026.
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=ais0n.homepage" alt="visitor badge" style="width: 0; height: 0;"/>
   </div>
 </template>
 
