@@ -399,22 +399,22 @@ const badgeColor = {
             </div>
             <div> Ph.D. Student, HKUST </div>
             <div> Hong Kong S.A.R., China </div>
-            <a-button href="https://github.com/Ais0n" style="border:none">
+            <a-button href="https://github.com/Ais0n" style="border:none" aria-label="GitHub">
               <template #icon>
                 <GithubOutlined />
               </template>
             </a-button>
-            <a-button href="https://twitter.com/Yanwei6161" style="border:none">
+            <a-button href="https://twitter.com/Yanwei6161" style="border:none" aria-label="Twitter">
               <template #icon>
                 <TwitterOutlined />
               </template>
             </a-button>
-            <a-button href="mailto:yanwei.huang AT connect AT ust AT hk" style="border:none">
+            <a-button href="mailto:yanwei.huang AT connect AT ust AT hk" style="border:none" aria-label="Email">
               <template #icon>
                 <MailOutlined />
               </template>
             </a-button>
-            <a-button href="https://www.linkedin.com/in/yanwei-huang-b404552aa/" style="border:none">
+            <a-button href="https://www.linkedin.com/in/yanwei-huang-b404552aa/" style="border:none" aria-label="LinkedIn">
               <template #icon>
                 <LinkedinOutlined />
               </template>
@@ -422,11 +422,10 @@ const badgeColor = {
           </div>
           <div class="card" style="text-align: left;">
             <div class="title is-3">News</div>
-            <ul style="line-height: 1.5em">
+            <ul class="newsList">
               <li v-for="(item, index) in news">
                 <span style="font-weight: bold;">{{ item.time }}</span>
                 <span> - {{ item.msg }} </span>
-                <br /><br />
               </li>
             </ul>
           </div>
@@ -455,7 +454,7 @@ const badgeColor = {
                   <a-badge-ribbon :text="item.venue"
                     :color="item.venue && badgeColor[item.venue] ? badgeColor[item.venue] : 'grey'"
                     style="padding: 0 15px;">
-                    <img class="articleImg" :src="item.imgsrc" />
+                    <img class="articleImg" :src="item.imgsrc" :alt="item.title" />
                   </a-badge-ribbon>
                 </div>
                 <div class="articleDescription">
@@ -542,7 +541,6 @@ const badgeColor = {
   </div>
   <div class="footer">
     Copyright @Yanwei Huang. Last updated on Sep 29, 2026.
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=ais0n.homepage" alt="visitor badge" style="width: 0; height: 0;"/>
   </div>
 </template>
 
@@ -555,9 +553,14 @@ const badgeColor = {
 }
 
 .footer {
+  display: flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
   background-color: #f7f7f7;
-  height: 50px;
-  width: 100%;
+  color: #6b6b6b;
+  font-size: 0.85rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -599,11 +602,25 @@ const badgeColor = {
 
 .articleImg {
   width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  background-color: #fafafa;
 }
 
 .articleDescription {
   width: 70%;
   padding: 5px 15px;
+}
+
+.newsList {
+  line-height: 1.5em;
+  padding-left: 1.25em;
+}
+
+.newsList li {
+  margin-bottom: 12px;
 }
 
 .authorHighlighted {
@@ -615,5 +632,19 @@ const badgeColor = {
   cursor: not-allowed;
   /* pointer-events: none; */
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .articleItem {
+    flex-direction: column;
+  }
+  .articleImgContainer,
+  .articleDescription {
+    width: 100%;
+    padding: 5px 0;
+  }
+  .mainContent {
+    padding: 1.5rem 0.75rem;
+  }
 }
 </style>
