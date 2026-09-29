@@ -15,6 +15,7 @@ import PC from "./assets/puzzleclone.png";
 import KV from "./assets/keditvis.png";
 import WS from "./assets/webseek.png";
 import CE from "./assets/cerebra.png";
+import SPE from "./assets/skillpe.jpg";
 import {
   GithubOutlined,
   TwitterOutlined,
@@ -33,6 +34,24 @@ const publications = ref({
   //   note: "test",
   // }],
   "2026": [
+    {
+      title: "SkillPE: Creativity-Oriented Cinematic Skill Evolution for Text-to-Video Prompt Engineering",
+      links: [{
+        name: "Paper",
+        href: "https://arxiv.org/abs/2609.34335"
+      }, {
+        name: "GitHub",
+        href: "https://github.com/Ais0n/SkillPE"
+      }, {
+        name: "Project Page",
+        href: "https://yhuang.top/spe_webpage/"
+      }],
+      imgsrc: SPE,
+      authors: ["Yanwei Huang", "Shiyuan Liu", "Pengfei Wan", "Yuanxing Zhang", "Arpit Narechania"],
+      venue: "arXiv",
+      venue_full: "arXiv preprint",
+      note: "test",
+    },
     {
       title: "PuzzleClone: An SMT-Powered Framework for Synthesizing Verifiable Data",
       links: [{
@@ -363,6 +382,7 @@ const badgeColor = {
   "ICSE": '#756bb1',
   "PacificVis": '#76153c',
   "ACL": '#4c72b0',
+  "arXiv": '#b31b1b',
 }
 </script>
 
@@ -521,7 +541,7 @@ const badgeColor = {
     </div>
   </div>
   <div class="footer">
-    Copyright @Yanwei Huang. Last updated on Apr 7, 2026.
+    Copyright @Yanwei Huang. Last updated on Sep 29, 2026.
     <img src="https://visitor-badge.laobi.icu/badge?page_id=ais0n.homepage" alt="visitor badge" style="width: 0; height: 0;"/>
   </div>
 </template>
