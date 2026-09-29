@@ -15,7 +15,7 @@ import PC from "./assets/puzzleclone.png";
 import KV from "./assets/keditvis.png";
 import WS from "./assets/webseek.png";
 import CE from "./assets/cerebra.png";
-import SPE from "./assets/skillpe.jpg";
+import SPE from "./assets/skillpe.png";
 import {
   GithubOutlined,
   TwitterOutlined,
