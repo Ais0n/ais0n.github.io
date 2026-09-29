@@ -47,9 +47,9 @@ const publications = ref({
         href: "https://yhuang.top/spe_webpage/"
       }],
       imgsrc: SPE,
-      authors: ["Yanwei Huang", "Shiyuan Liu", "Pengfei Wan", "Yuanxing Zhang", "Arpit Narechania"],
+      authors: ["Yanwei Huang", "Mingxuan Zhu", "Shujie Li", "Shiyuan Liu", "Yuanxing Zhang", "Arpit Narechania"],
       venue: "arXiv",
-      venue_full: "arXiv preprint",
+      venue_full: "arXiv preprint (under review)",
       note: "test",
     },
     {
