@@ -40,6 +40,9 @@ const publications = ref({
       links: [{
         name: "Paper",
         href: "https://arxiv.org/abs/2610.25852"
+      }, {
+        name: "GitHub",
+        href: "https://github.com/Ais0n/MASIF.git"
       }],
       imgsrc: MASIF,
       authors: ["Yanwei Huang", "Arpit Narechania", "Atanu Sinha"],
