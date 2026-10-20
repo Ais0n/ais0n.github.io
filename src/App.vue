@@ -16,6 +16,7 @@ import KV from "./assets/keditvis.png";
 import WS from "./assets/webseek.png";
 import CE from "./assets/cerebra.png";
 import SPE from "./assets/skillpe.png";
+import MASIF from "./assets/masif.png";
 import {
   GithubOutlined,
   TwitterOutlined,
@@ -34,6 +35,17 @@ const publications = ref({
   //   note: "test",
   // }],
   "2026": [
+    {
+      title: "MASIF: Implicit Failures for Process Observability in Multi-Agent Systems",
+      links: [{
+        name: "Paper",
+        href: "https://arxiv.org/abs/2610.25852"
+      }],
+      imgsrc: MASIF,
+      authors: ["Yanwei Huang", "Arpit Narechania", "Atanu Sinha"],
+      venue: "arXiv",
+      venue_full: "arXiv preprint (under review)",
+    },
     {
       title: "SkillPE: Creativity-Oriented Cinematic Skill Evolution for Text-to-Video Prompt Engineering",
       links: [{
@@ -450,14 +462,14 @@ const badgeColor = {
             <div v-for="(year, _i) in _years">
               <div class="title is-4" style="margin-top: 15px"> {{ year }} </div>
               <div v-for="(item, index) in publications[year]" class="articleItem">
-                <div class="articleImgContainer">
+                <div v-if="item.imgsrc" class="articleImgContainer">
                   <a-badge-ribbon :text="item.venue"
                     :color="item.venue && badgeColor[item.venue] ? badgeColor[item.venue] : 'grey'"
                     style="padding: 0 15px;">
                     <img class="articleImg" :src="item.imgsrc" :alt="item.title" />
                   </a-badge-ribbon>
                 </div>
-                <div class="articleDescription">
+                <div class="articleDescription" :class="{ 'articleDescription--full': !item.imgsrc }">
                   <div class="title is-5" style="font-weight: bold;"> {{ item.title }} </div>
                   <div style="margin-bottom: 3px">
                     <span v-for="(author, i) in item.authors"
@@ -613,6 +625,10 @@ const badgeColor = {
 .articleDescription {
   width: 70%;
   padding: 5px 15px;
+}
+
+.articleDescription--full {
+  width: 100%;
 }
 
 .newsList {
