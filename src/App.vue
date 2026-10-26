@@ -157,6 +157,9 @@ const publications = ref({
     {
       "title": "KEditVis: A Visual Analytics System for Knowledge Editing of Large Language Models",
       "links": [{
+        name: "Paper",
+        href: "https://ieeexplore.ieee.org/document/11523566"
+      }, {
         name: "PDF",
         href: "https://yhuang.top/pdf/visualke.pdf"
       }, {
@@ -165,8 +168,8 @@ const publications = ref({
       }],
       imgsrc: KV,
       authors: ["Zhenning Chen", "Hanbei Zhan", "Yanwei Huang", "Xin Wu", "Dazhen Deng", "Di Weng", "Yingcai Wu"],
-      venue: "PacificVis",
-      venue_full: "PacificVis 2026 (IEEE TVCG Journal Track)",
+      venue: "IEEE TVCG",
+      venue_full: "IEEE TVCG 2026",
       note: "test",
     },
   ],
